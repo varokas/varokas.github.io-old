@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> An Agile development model called &#34;Waterfall&#34; &middot; My New Hugo Site </title>
+
+  
+  <link rel="stylesheet" href="http://yoursitehere//css/poole.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/syntax.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>My New Hugo Site</h1>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>An Agile development model called &#34;Waterfall&#34;</h1>
+  <span class="post-date">Fri, Jun 14, 2013</span>
+      
+
+<p>วันนี้ขอเสนอโมเดลการพัฒนาซอฟแวร์แบบอไจล์ครับ ชื่อว่า &ldquo;Waterfall&rdquo; เปรียบได้เหมือนกับการไหลของน้ำตกจาก Requirement ไปจนถึง Deploy</p>
+
+<p>ถ้าวาดเอาง่ายๆ ก็เป็นดังรูปข้างล่าง</p>
+
+<p><a href="http://www.varokas.com/wp-content/uploads/2013/06/untitled-diagram-3.png"><img src="http://www.varokas.com/wp-content/uploads/2013/06/untitled-diagram-3.png?w=293" alt="Untitled Diagram (3)" />
+</a></p>
+
+<h3 id="ข-นตอน:86c462b8c342f467707fad22b1382a57"><strong>ขั้นตอน</strong></h3>
+
+<ol>
+<li><p><strong>Requirement</strong> : ในขั้นนี้เราก็เอา User Story มาอันนึง แล้วก็คุยกับลูกค้าให้พอเข้าใจว่าจะสร้างมันยังไง</p></li>
+
+<li><p><strong>Design</strong> : เสร็จแล้วก็คุยกับเพื่อนร่วมทีมคร่าวๆ ว่าจะโค้ดยังไง มีอะไรที่ต้องเขียนที่มีการออกแบบต่างจากปกติรึเปล่า?</p></li>
+
+<li><p><strong>Code</strong>: ลงมือเขียนโค้ด ถ้ามี QA และก็อาจจะเขียน test case ไปพร้อมๆ กัน</p></li>
+
+<li><p><strong>Test</strong>: รันเทส ถ้ามันไม่ผ่านก็กลับไปแก้โค้ดให้ผ่าน</p></li>
+
+<li><p><strong>Deploy</strong>: ถ้างานเสร็จ ก็เอาไปดีพลอยซักที่ให้ลูกค้าดู​ ถ้าลูกค้าชอบ เกิดประโยชน์ ก็เอามันไปโยนใส่ production</p></li>
+</ol>
+
+<h3 id="waterfail:86c462b8c342f467707fad22b1382a57"><strong>Waterfail?</strong></h3>
+
+<p>อ้าว แล้วแบบนี้มันต่างกับไอ้ที่เราเคยทำกันตรงไหนล่ะ? เราไม่ได้พยายามดิ้นรนหนีออกมาจากสิ่งนี้อยู่หรอ?</p>
+
+<p>จริงๆ แล้วเวลาเราพูดถึง Waterfall เรามักจะเหมารวมกันถึงสองเรื่อง</p>
+
+<ol>
+<li><p>กระบวนการ จาก Req -&gt; Design -&gt; Code -&gt; Test -&gt; Deploy</p></li>
+
+<li><p>การที่เราต้องที Req ทั้งระบบ จากนั้นก็ไป Design ทั้งระบบ Code ทั้งระบบ Test ทั้งหมด แล้วก็ Deploy ก้อนใหญ่ๆ</p></li>
+</ol>
+
+<p>สิ่งที่เราพยายามหนีออกมาจาก &ldquo;Waterfall&rdquo; ที่พูดๆ กัน ไม่ใช่ขั้นตอนกระบวนการทำงานจาก Req -&gt; Deploy ในข้อที่หนึ่งหรอกครับ แต่คือการที่เราต้องไปจมอยู่กับแต่ละกล่องเป็นเวลานานๆ วันๆ ก็นั่งเขียนแต่ Requirement ไปเรื่อยๆ คุยกันจนได้ครบ แล้วก็เข้าไปขั้น Design เสียเวลาอีกนานๆ แล้วก็ลงไปทำขั้นถัดไปๆ เรื่อยๆ</p>
+
+<p>จนมาวันหนึ่ง test จบ เอามันไปให้ลูกค้าได้ดู ก็จะได้รายการบ่นจากลูกค้ามาชุดใหญ่ๆ ไปให้แก้ (ก็เพราะเราให้เค้าดูทีละเยอะๆ เองนิ ช่วยไม่ได้)</p>
+
+<p>Waterfail ที่ชอบพูดกันด้วยอารมณ์สิ้นหวัง จริงๆ แล้วก็คือแค่การล้มเหลวในการสร้าง &ldquo;ความพึงพอใจของลูกค้าที่มีต่อการส่งมอบซอฟท์แวร์ที่มีคุณค่าต่อลูกค้า ตั้งแต่ต้นอย่างต่อเนื่อง&rdquo; (<a href="http://agilemanifesto.org/iso/th/principles.html">หลักการเบื้องหลังคำแถลงอุดมการณ์แห่งอไจล์ #1</a>) เท่านั้นเอง</p>
+
+<h3 id="สร-ป:86c462b8c342f467707fad22b1382a57"><strong>สรุป</strong></h3>
+
+<p>ถ้า <a href="http://varokas.wordpress.com/2013/05/20/there-is-no-agile/">Agile ไม่มีอยู่จริง</a> แล้้ว &ldquo;Waterfall&rdquo; ที่พูดกันก็ไม่มีอยู่จริงด้วยครับ</p>
+
+<p>ถ้าคิดง่ายๆ ลองมองมันเป็นสองขั้วที่อยู่คนละข้างกัน ก็ได้</p>
+
+<ul>
+<li><p>เวลาคนทั่วไปเรียกตัวเองว่า <strong>Agile</strong> คือการบอกว่าเค้าอยู่ใกล้ฝั่งที่ดันจาก Req จนถึง Deploy โดยใช้เวลาน้อยๆ (เดือน วัน หรือ ชม) มากกว่า</p></li>
+
+<li><p>เวลาคนทั่วไปเรียกตัวเองว่า <strong>Waterfall</strong> คือการบอกว่าเค้าอยู่ใกล้ฝั่งที่ดันจาก Req จนถึง Deploy โดยใช้เวลามากๆ (ไตรมาส ปี หรือ หลายๆ ปี) มากกว่า</p></li>
+</ul>
+
+<p>ไม่ได้เกี่ยวอะไรกับลำดับการทำงานอะไรก่อนหลัง</p>
+
+<p>แล้ววันนี้คุณอยู่ใกล้ฝั่งไหนมากกว่ากัน?</p>
+
+</div>
+</div>
+
+  </body>
+</html>

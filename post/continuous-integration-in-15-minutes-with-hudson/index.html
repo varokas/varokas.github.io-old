@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Continuous Integration in 15 Minutes with Hudson &middot; My New Hugo Site </title>
+
+  
+  <link rel="stylesheet" href="http://yoursitehere//css/poole.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/syntax.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>My New Hugo Site</h1>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>Continuous Integration in 15 Minutes with Hudson</h1>
+  <span class="post-date">Sun, Mar 28, 2010</span>
+      
+
+<p>My motto: If something goes wrong, I want to know it now. <a href="http://martinfowler.com/articles/continuousIntegration.html">Continuous Integration</a> is always one of the most useful Agile practice I adore. It remove the phrase &ldquo;But it was working on my machine .. yesterday!&rdquo; out of the equation by putting a central environment that the build must run on. Most people might be more familiar with <a href="http://cruisecontrol.sourceforge.net/">Cruisecontrol</a>, but the lack of snappy setup and configuration for newbies is one of the big downsides it has. I was just introduced to <a href="http://hudson-ci.org/">Hudson</a> recently and really likes the simplicity it offers. I recommend this to teams that start using CI, because it is really easy to set up.</p>
+
+<h3 id="ci-basics:d3ed3edfce2da26dadb95e2eb07a54d6">CI Basics</h3>
+
+<p>First, let me talk real quick about CI, to summarize its benefits and allow us to see how Hudson comes to play with that. Continuous Integrations in the wild usually follow these steps.</p>
+
+<ol>
+<li><p>One of the Developers in the team checks in code to a code repository (SVN, Mercurial, etc).</p></li>
+
+<li><p>Hudson sees that there&rsquo;s a new code and checks out the code in its own workspace</p></li>
+
+<li><p>Hudson run the build script (usually <a href="http://ant.apache.org/">Ant</a>, or the increasingly popular <a href="http://maven.apache.org/">Maven</a>) that is checked in the code. The build script usually follow these steps ( I will surely blog more about this later ).</p>
+
+<ol>
+<li><p>Checking</p></li>
+
+<li><p>DB</p></li>
+
+<li><p>Generating code</p></li>
+
+<li><p>Compile</p></li>
+
+<li><p>Run automated test</p></li>
+
+<li><p>Run code analyzer tool (Static Analysis, Code Metrics , Test Coverage)</p></li>
+
+<li><p>Deploy the compiled code on test server</p></li>
+</ol></li>
+
+<li><p>Hudson gather build results and compile a report (compile pass/failed, number of test passed/failed)</p></li>
+
+<li><p>Hudson publish a report on the website, and send out (emails/rss/twitter) to the developer that breaks the build</p></li>
+
+<li><p>The developer has to take responsibility to fix the error and commit in the fix</p></li>
+</ol>
+
+<h3 id="installing-hudson:d3ed3edfce2da26dadb95e2eb07a54d6">Installing Hudson</h3>
+
+<ol>
+<li><p>Hudson is distributed a form of (.war) file. Download the latest one from their <a href="https://hudson.dev.java.net/">website</a>.</p></li>
+
+<li><p>Prepare any Java Servlet container. <a href="http://tomcat.apache.org/download-60.cgi">Tomcat</a>, would do. For windows, I suggest installing it as a service.</p></li>
+
+<li><p>Use Tomcat Manager to upload and deploy hudson.war</p></li>
+
+<li><p>Goto <a href="http://localhost:8080/hudson">http://localhost:8080/hudson</a></p></li>
+
+<li><p>On the left menu, goto &ldquo;Manage Hudson&rdquo;, then &ldquo;Configure System&rdquo;. Enter email server information</p></li>
+</ol>
+
+<h3 id="configuring-the-build:d3ed3edfce2da26dadb95e2eb07a54d6">Configuring the build</h3>
+
+<ol>
+<li><p>Each build project is called jobs. There&rsquo;s a link to create one once you browse to hudson, click on it.</p></li>
+
+<li><p>Enter the job name. Choose &ldquo;Build a free-style software project<strong>&rdquo;.</strong></p></li>
+
+<li><p>In Source code Management section, choose the one you use. Provide the path to your project source repository.</p></li>
+
+<li><p>In Build Triggers, select how often we want Hudson to grab the source code. In regular standalone projects, we usually do it every time a developer checks in code (&ldquo;Poll SCM&rdquo;). The parameter is a schedule in cron format. Every fifteen minutes ( */15 * * * *) should suffice for most projects. Note that this does not mean that we will build every 15 minutes, it means that Hudson will be checking for changes in the SVN every 15 minutes.</p></li>
+
+<li><p>In build section, select add build step. Choose &ldquo;Invoke Ant&rdquo; and provide the target name. If the build.xml is not at the root of the repository, choose &ldquo;Advanced&hellip;&rdquo; and provide the ant file path.</p></li>
+
+<li><p>In Post build actions, select Email notification and enter a list of everybody in your team. This will make Hudson send out an email to everybody when there&rsquo;s a build broken.</p></li>
+</ol>
+
+<h3 id="establishing-fix-the-build-culture:d3ed3edfce2da26dadb95e2eb07a54d6">Establishing Fix-the-Build Culture</h3>
+
+<p>This is probably the most important thing you need to do, even more important than the tool itself. This is when you get team members together. Introduce their new neighbor, the build server. Then establishing the team rule of &ldquo;You break the build, you fix the build&rdquo;. This does not mean that the junior member will be entirely on their own when problems arise. But he needs to be responsible for grabbing the right people when something happens and everybody is accountable for their commits.</p>
+
+<p>Making such rule would ensure that you would have the near-shippable quality product every day. Well&hellip; something that compiles and automatically tested at least :-).</p>
+
+</div>
+</div>
+
+  </body>
+</html>

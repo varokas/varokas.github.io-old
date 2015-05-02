@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Async Testing บน JavaScript &middot; My New Hugo Site </title>
+
+  
+  <link rel="stylesheet" href="http://yoursitehere//css/poole.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/syntax.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>My New Hugo Site</h1>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>Async Testing บน JavaScript</h1>
+  <span class="post-date">Sat, Jun 28, 2014</span>
+      <p>ใช้ Asynchronous โค้ดมักจะเทสได้ยาก เพราะเราไม่รู้ว่ามันจะไปจบลงเมื่อไหร่ เพราะเวลาเราเรียกฟังก์ชัน async เสร็จมันก็จะไปอยู่ในโลกของมันเอง ไม่กลับมาอีก</p>
+
+<p>&lt;!&ndash; more &ndash;&gt;ซึ่งเทคนิคในการแก้ไขแบบนี้น่าจะมีได้หลายแบบ อย่างนึงที่คิดออกและเคยทำคือ ต้องให้ async code มันไปเขียนค่าใน shared variable ซักตัวนึง แล้วก็ให้เทสมันเช็คหลังจากรอไปซักพักนึง</p>
+
+<p>แต่สำหรับ JavaScript ถ้าใครใช้ jasmine เป็นเฟรมเวิร์คในการเทส จะมีวิธีจัดการง่ายๆ แบบนี้</p>
+
+<p>[code lang=&ldquo;js&rdquo;]
+it(&ldquo;async spec must use done callback&rdquo;, function(done) {
+  setTimeout(function() {
+    done();
+  }
+  ,50);
+});
+[/code]</p>
+
+<p>ลองสังเกตว่าถ้าเราเขียนเทสปกติ function ที่อยู่ใน it(..) จะไม่รับ parameter อะไร แต่ถ้าเป็นแบบ async ก็จะมีการประกาศตัวแปรขึ้นมา 1 ตัว (ไม่ให้งงแนะนำว่าให้ใช้ชื่อว่า done) ซึ่งถ้าประกาศแบบนี้แล้ว jasmine ก็จะรู้เองว่าเราอยากใช้แบบ async ซึ่งจะผ่านเมื่อในโค้ดเรามีการเรียก done ก่อนเวลา timeout (ค่า default คือ 5 วินาที เปลี่ยนได้)</p>
+
+<p>ลองไปรันโค้ดได้จากที่นี่ : [<a href="https://github.com/varokas/kata-js">https://github.com/varokas/kata-js</a>]</p>
+
+</div>
+</div>
+
+  </body>
+</html>

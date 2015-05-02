@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist &middot; My New Hugo Site </title>
+
+  
+  <link rel="stylesheet" href="http://yoursitehere//css/poole.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/syntax.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>My New Hugo Site</h1>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist</h1>
+  <span class="post-date">Sat, Aug 9, 2014</span>
+      
+
+<p>ไม่ได้เขียนบล็อกเรื่อง Programming มานาน เดี๋ยวจะคิดว่านนเปลี่ยนไปทำไฟแนนซ์แล้ว วันนี้เลยอยากจะมาระบายอารมณ์​ (ทั้งอารมณ์ดีและอารมณ์เสีย) เรื่อง Swift จากมุมมองของ Agilist ซักหน่อย
+&lt;!&ndash; more &ndash;&gt;</p>
+
+<p>จริงๆ ไม่เคยอยากจะแตะอะไรเกี่ยวกับ iOS เลยตั้งแต่เห็น Objective-C แว๊บแรกแล้ว เพราะดูน่ากลัวมาก ไม่น่าเชื่อว่าไอ้ที่เราถูๆ ลื่นๆ บนไอโฟนมันจะถูกเขียนอยู่บนอะไรที่โบราณขนาดนี้ เข้าใจว่าหลายคนก็คงไม่อยากจะไปยุ่งกับมันหรอก แต่ทำไงได้มันไม่มีทางเลือก</p>
+
+<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7-1024x588.png" alt="2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7" />
+</a></p>
+
+<p>พอ Apple ประกาศ​ Swift แว๊บแรกนี่ดูดีมากเลย&hellip; พยายามจะไปโหลดทันที แต่..เสียตังค์ T_T</p>
+
+<p>ได้ลองเอาจริงจังๆ ก็ตอน XCode Beta 3 เนี่ยแหละ เค้าเปิดให้โปรแกรมเมอร์จนๆ ทั่วไปอย่างเราได้โหลดมาใช้ฟรีแล้ว ก็เลยลองมาเล่นดู ก็เล่นเสร็จตั้งนานละ เขียนบล็อกก่อนเค้าจะออกของจริงก็แล้วกัน เผื่อมีใครเล่นอยู่ด้วย</p>
+
+<p>เนื่องจากไม่รู้จะทำอะไรดี ก็เลยงัด <a href="http://codingdojo.org/cgi-bin/index.pl?KataTennis">Kata Tennis</a> มาจัดซักรอบ จะได้รู้ว่าภาษากับ tools มันไปถึงไหนละ</p>
+
+<h2 id="อารมณ-ด-ภาษาง-าย:acf2f6a40a02890e5164c61d395a7789">อารมณ์ดี : ภาษาง่าย</h2>
+
+<p>ที่อยากลองเล่น Swift เพราะดูผ่านๆแล้วมันเหมือนกับ Scala อย่างกับจะถอดแบบมาเลย แต่พอลองเข้าไปจริงๆ แล้วมันก็มีต่างกันหลายอย่างนะ เหมือนยืมๆ มาจาก Go บ้าง จาก Scala บ้าง เอาของตัวเองใส่เข้าไปบ้าง รวมๆ แล้วก็เป็นภาษาที่อ่านง่าย ไม่ค่อยมี keyword ไม่จำเป็นใส่เข้ามาเท่าไหร่</p>
+
+<p>ที่สำคัญคือไม่พยายามยัดเยียดอะไรบางอย่างเข้ามาในตัวภาษา เหมือนกับ XML หรือ Actor Model ของ Scala ที่พยายามอัดเข้ามา (แต่ตอนนี้ตัดสินใจเริ่มๆเอาออกไปแล้ว)</p>
+
+<h2 id="อารมณ-ด-documentation-อ-านง-าย:acf2f6a40a02890e5164c61d395a7789">อารมณ์ดี : Documentation อ่านง่าย</h2>
+
+<p>ไม่รู้อันนี้เป็นเวทมนต์อะไรของ Apple รึเปล่า แต่ Document ของ Swift รู้สึกได้ว่าเป็นระบบมาก อ่านง่ายมาก แบ่งเป็นหมวดหมู่ดี จะหาอะไรก็ง่าย ตัวอย่างชัดเจน ของง่ายๆ วางไว้ตอนแรก ใครอยากโดนของแรงๆ ก็ไปอ่านในหมวด Language Reference ซะ</p>
+
+<p>ไม่เชื่อลองไปดูได้ <a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html">Swift Documentation</a></p>
+
+<p>ต่างกับภาษาอื่นๆ ที่บางทีเหมือนเอา Wiki มาเย็บๆ กันมากกว่า</p>
+
+<h2 id="อารมณ-ด-type-safe-ก-บ-type-inference:acf2f6a40a02890e5164c61d395a7789">อารมณ์ดี : Type-Safe กับ Type Inference</h2>
+
+<p>ส่วนตัวชอบภาษาแบบ static ถึงแม้มันจะต้องง้อ compiler เยอะๆ กว่าจะยอมให้ผ่านก็เถอะ รู้สึกเองว่ายุคนี้แล้ว static checker ก็พัฒนาไปถึงไหนๆ แล้ว ยังอยากจะมาเสี่ยงให้ของมันพังตอนรันอีกทำไม? ถ้าไม่อยากให้พังก็ต้องเขียนเทสมาครอบเยอะ ซึ่งก็ไม่ค่อยยอมจะเขียนกันอยู่ดี</p>
+
+<p>ก็เลยรู้สึกดีว่า Apple ตัดสินใจทำภาษาใหม่แบบ static นะ อาจจะไม่ถูกใจทุกคน แต่ถูกใจเรามาก ฮ่าๆๆ</p>
+
+<p>อันนี้ไม่รู้ว่าก็อบมาจาก Scala หรือเปล่า แต่ชอบมากตรงที่ String Interpolation ก็โดนเช็คด้วย หมดปัญหาข้อความพังอีกต่อไป (ลาก่อน sprintf)</p>
+
+<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png" alt="Screen Shot 2014-07-15 at 5.19.47 PM" />
+</a></p>
+
+<h2 id="อารมณ-เส-ย-refactoring:acf2f6a40a02890e5164c61d395a7789">อารมณ์เสีย : Refactoring</h2>
+
+<p>เอาไปรูปเดียวแทนได้เป็นพันคำ</p>
+
+<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png" alt="Screen Shot 2014-07-16 at 11.53.11 AM" />
+</a></p>
+
+<p>ก็ยังอุตส่าห์เป็นไอเท็มในเมนูให้คลิ๊กแล้วผิดหวังอ่ะนะ อย่างน้อยขอ Extract Method ก็ยังดีนะครับ -*- เอาไว้จัดโค้ดง่ายๆ นี่ต้องมาก๊อบมือเองหมดเลย (ไม่ทำ TDD ไม่รู้หรอก)</p>
+
+<h2 id="อารมณ-เส-ย-บ-ก:acf2f6a40a02890e5164c61d395a7789">อารมณ์เสีย : บั๊ก</h2>
+
+<p>ภาษาที่ดูง่ายๆนี้บางทีมันก็มีจุดแปลกๆอยู่ในในภาษาเยอะเลย เช่น ไม่มี private method ?!? อันนี้เค้าบอกเดี๋ยวจะแก้ในรุ่นเต็ม ก็รอดูกัน</p>
+
+<p>บางอันก็เป็นเหมือนบั๊กใน compiler มั๊ง เช่นถ้าเขียน circular reference เพื่อที่จะทำ container แบบนี้ ก็จะทำให้ XCode พังได้เลยทีเดียว</p>
+
+<p>[code]
+protocol ScoreState {
+  func aWins(context: ScoreStateContext)
+  &hellip;
+}
+protocol ScoreStateContext {
+  func setScoreState(scoreState: ScoreState)
+  &hellip;
+}
+[/code]</p>
+
+<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png" alt="Screen Shot 2014-07-16 at 11.46.53 AM" />
+</a></p>
+
+<p>นี่ไม่ได้ตั้งใจแกล้งนะ กำลังลอง refactor มันเป็น state pattern ใช้งานจริงๆ</p>
+
+<h2 id="สร-ป:acf2f6a40a02890e5164c61d395a7789">สรุป</h2>
+
+<p>สรุปดื้อๆ ก็อารมณ์ดีมากกว่าอารมณ์เสียนะ ภาษาง่ายดี ไม่พยายามทำตัวให้มีลูกเล่นแปลกๆ ทำให้อยากเล่น iOS มากขึ้นเป็นพันเท่า แต่ถ้าจะเอาอะไรจริงจังก็คงมีบั๊กอยู่เยอะพอสมควร ระวังด้วยละกัน</p>
+
+<h2 id="show-me-the-code:acf2f6a40a02890e5164c61d395a7789">Show me the Code</h2>
+
+<p>ใครสนใจโค้ดไปดูดมาได้จาก github : <a href="https://github.com/varokas/kata-swift/blob/master/kata-swift-test/kata_tennis_test.swift">kata-swift</a></p>
+
+<p>ปล.​ กรุณาอย่าด่าว่า ทำไมเขียนโค้ดในไฟล์เทส เพราะพยายามแล้วแต่เซ็ตโปรเจค XCode ไม่เป็นเลยซักนิดเดียว T_T</p>
+
+</div>
+</div>
+
+  </body>
+</html>

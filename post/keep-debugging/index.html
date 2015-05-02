@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Keep Debugging &middot; My New Hugo Site </title>
+
+  
+  <link rel="stylesheet" href="http://yoursitehere//css/poole.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/syntax.css">
+  <link rel="stylesheet" href="http://yoursitehere//css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>My New Hugo Site</h1>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2015. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>Keep Debugging</h1>
+  <span class="post-date">Fri, Jun 22, 2012</span>
+      <blockquote>Programming(n) - The art of debugging a blank sheet of paper
+(http://f2.org/humour/programming/)</blockquote>
+
+<p>หลายๆ คนเกลียดการ debug ผมแนะนำให้อย่าทำอย่างอื่นเลยนอกจาก debug ครับ ให้ลองจินตนาการดูว่าโลกนี้ไม่มีสิ่งที่เรียกว่า feature</p>
+
+<p>เมื่อตอนเราเริ่มโปรเจค เป็นไฟล์ว่างๆ เปรียบเสมือนกระดาษเปล่า เอาหน้าเปล่าๆ นี้ไปส่งลูกค้า ก็จะโดนบ่นกลับมา เพราะที่จุดนี้โปรเจคเราทำอะไรตามที่ลูกค้าต้องการไม่ได้ซักอย่าง โปรเจคเราเต็มไปด้วยบั๊ก มองไปทางไหนก็เป็นบั๊ก บั๊ก บั๊ก ถ้าโปรเจคของเราคือการทำเวปบริษัท ยกตัวอย่างบั๊กที่สำคัญๆ มาสามอันดับแรกที่ลูกค้าเจอ และลูกค้าคิดว่าต้องแก้โดยด่วนเป็นอันดับแรกๆ ก็คงจะเป็นประมาณนี้</p>
+
+<ol>
+<li><p>expected: เมื่อ user เข้ามาที่เวป จะพบกับหน้าแรกที่มีโลโก้บริษัท</p></li>
+
+<li><p>expected: ในหน้าแรกของบริษัท จะมีลิงค์ไปยังเวปบอร์ด</p></li>
+
+<li><p>expected: เมื่อกดปุ่ม contact us จะกระโดดไปหน้าที่มีที่อยู่และเบอร์โทรติดต่อของบริษัท</p></li>
+</ol>
+
+<p>นิยามการพัฒนาซอฟแวร์ของเราก็คือ การเริ่มแก้บั๊กไปทีละตัว จากกระดาษเปล่าที่ไม่เคยใช้อะไรได้ ไปที่หน้าแรกก็ไม่เจออะไร ก็เริ่มแก้บั๊กโดยใส่หน้่า homepage ให้คนเข้ามาดูได้ เริ่มมีคุณค่ามากขึ้น ต่อมาก็แก้บั๊กตัวถัดๆ ไป เริ่มมีลิงค์เข้าไปยังหน้าต่างๆ โปรแกรมเราจากทำอะไรไม่ได้เลย พอแก้บั๊กไปเรื่อยๆ ก็ตรงกับความต้องการของลูกค้ามากขึ้น เริ่มมีประโยชน์มากขึ้นเรื่อยๆ ตามกาลเวลา</p>
+
+<p>ในระหว่างที่ทำโปรเจคอยู่ ถ้าลูกค้ามีบั๊กในใจอยู่หลายๆ ตัว ก็ช่วยลูกค้าจัดลำดับความสำคัญก่อนหลัง แล้วก็สัญญากับลูกค้าว่าจะทำจัดกลุ่มทำการรีลีสบั๊กที่ถูกแก้แล้วยังไงเมื่อไหร่ เวลาที่แก้บั๊กเสร็จแต่ละตัวก็เอาไปให้ลูกค้าดูว่า บั๊กนี้แก้ได้ถูกต้องหรือยัง อดทนแก้บั๊กไปทีละตัว จนกว่าลูกค้่าจะหาบั๊กไม่เจอแล้ว ก็ไม่ต้องทำอะไรต่อ</p>
+
+<p>มาถึงตอนนี้หลายๆ คนคงนึกด่าในใจแล้วว่า มันก็เหมือนๆ กันน่ะแหละ แค่เราแอบเรียก feature ว่า bug เฉยๆ</p>
+
+<p>ถูกต้องเลยครับ แต่ถ้าเราคิดว่าไม่ต่่างกันแล้ว ทำไมโปรเจคจำนวนมาก ยังคงมี bug list แล้วก็มี feature list อยู่ล่ะ? ไปอ่านดูสกรัมดีๆ ก็เห็น backlog อยู่อันเดียว งานทั้งหมดที่ต้องทำเพื่อให้เกิดซอฟแวร์ของเราเกิดคุณค่ามากขึ้น เค้าก็บอกให้ใส่ไว้เป็น work item ใน backlog ที่่ว่านี้ แต่หลายๆ ทีมก็ไม่วายมี bug list แยกออกมาอยู่ดี เวลาถามว่าบั๊กที่ไม่ได้เกิดจากการทำไม่ตรง spec คืออะไร คำตอบก็คือ &ldquo;สิ่งต่างๆ ที่ควรจะมี แต่ไม่ได้อยู่ใน spec&rdquo; สรุปแล้วก็คือ ต่างกันแค่ feature คือ สถาณะของระบบที่คิดได้ก่อนจะทำว่าควรจะมี ส่วน bug คือมารู้เอาทีหลังว่าต้องมีจากการได้เริ่มเห็นโปรแกรมมากขึ้นเรื่อยๆ</p>
+
+<p>ถ้าการพัฒนาซอฟแวร์คือ การเพิ่มคุณค่าของระบบไปเรื่อยๆ ให้มีสามารถทำงานได้ตรงกับความต้องการกับลูกค้ามากขึ้นเรื่อยๆ การแก้บั๊ก bug หรือ เพิ่ม feature ก็ทำให้ระบบเราใช้งานได้ดีขึ้น ตรงใจมากขึ้นเรื่อยๆ คำถามคือ เราจะพยายามแยกสองอย่างนี้ออกจากกันทำไมครับ?</p>
+
+</div>
+</div>
+
+  </body>
+</html>
