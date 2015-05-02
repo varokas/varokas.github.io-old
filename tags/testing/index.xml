@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing on My New Hugo Site</title>
-    <link>http://yourSiteHere/tags/testing/</link>
-    <description>Recent content in Testing on My New Hugo Site</description>
+    <title>Testing on varokas</title>
+    <link>http://varokas.github.io/tags/testing/</link>
+    <description>Recent content in Testing on varokas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Jun 2014 22:43:23 +0000</lastBuildDate>
-    <atom:link href="http://yourSiteHere/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://varokas.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Async Testing บน JavaScript</title>
-      <link>http://yoursitehere/post/async-testing-e0b89ae0b899-javascript/</link>
+      <link>http://varokas.github.io/post/async-testing-e0b89ae0b899-javascript/</link>
       <pubDate>Sat, 28 Jun 2014 22:43:23 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/async-testing-e0b89ae0b899-javascript/</guid>
+      <guid>http://varokas.github.io/post/async-testing-e0b89ae0b899-javascript/</guid>
       <description>&lt;p&gt;ใช้ Asynchronous โค้ดมักจะเทสได้ยาก เพราะเราไม่รู้ว่ามันจะไปจบลงเมื่อไหร่ เพราะเวลาเราเรียกฟังก์ชัน async เสร็จมันก็จะไปอยู่ในโลกของมันเอง ไม่กลับมาอีก&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;ซึ่งเทคนิคในการแก้ไขแบบนี้น่าจะมีได้หลายแบบ อย่างนึงที่คิดออกและเคยทำคือ ต้องให้ async code มันไปเขียนค่าใน shared variable ซักตัวนึง แล้วก็ให้เทสมันเช็คหลังจากรอไปซักพักนึง&lt;/p&gt;

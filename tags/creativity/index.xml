@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Creativity on My New Hugo Site</title>
-    <link>http://yourSiteHere/tags/creativity/</link>
-    <description>Recent content in Creativity on My New Hugo Site</description>
+    <title>Creativity on varokas</title>
+    <link>http://varokas.github.io/tags/creativity/</link>
+    <description>Recent content in Creativity on varokas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Feb 2010 21:19:14 +0000</lastBuildDate>
-    <atom:link href="http://yourSiteHere/tags/creativity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://varokas.github.io/tags/creativity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Stop Making Excuses</title>
-      <link>http://yoursitehere/post/stop-making-excuses/</link>
+      <link>http://varokas.github.io/post/stop-making-excuses/</link>
       <pubDate>Sat, 27 Feb 2010 21:19:14 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/stop-making-excuses/</guid>
+      <guid>http://varokas.github.io/post/stop-making-excuses/</guid>
       <description>&lt;p&gt;I would like to make my first post with an open letter to software industry.&lt;/p&gt;
 
 &lt;p&gt;Dear Software Industry,&lt;/p&gt;

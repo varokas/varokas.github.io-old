@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Engineering on My New Hugo Site</title>
-    <link>http://yourSiteHere/categories/software-engineering/</link>
-    <description>Recent content in Software Engineering on My New Hugo Site</description>
+    <title>Software Engineering on varokas</title>
+    <link>http://varokas.github.io/categories/software-engineering/</link>
+    <description>Recent content in Software Engineering on varokas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Mar 2015 04:49:50 +0000</lastBuildDate>
-    <atom:link href="http://yourSiteHere/categories/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://varokas.github.io/categories/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Best Things to do in Seattle</title>
-      <link>http://yoursitehere/post/best-things-to-do-in-seattle/</link>
+      <link>http://varokas.github.io/post/best-things-to-do-in-seattle/</link>
       <pubDate>Fri, 20 Mar 2015 04:49:50 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/best-things-to-do-in-seattle/</guid>
+      <guid>http://varokas.github.io/post/best-things-to-do-in-seattle/</guid>
       <description>
 
 &lt;p&gt;Since I&amp;rsquo;ve lived in Seattle for a while. People asked me what are some of the things they should do if they fly there to visit. Never realized Seattle is quite a popular place to be in. So I decided to compile a list for that.&lt;/p&gt;
@@ -114,10 +114,10 @@
     
     <item>
       <title>เส้นที่ขีดไว้ให้ตัวเอง</title>
-      <link>http://yoursitehere/post/line-for-self/</link>
+      <link>http://varokas.github.io/post/line-for-self/</link>
       <pubDate>Mon, 15 Sep 2014 01:07:26 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/line-for-self/</guid>
+      <guid>http://varokas.github.io/post/line-for-self/</guid>
       <description>
 
 &lt;p&gt;[caption id=&amp;ldquo;attachment_952&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;420&amp;rdquo;]&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/09/line-in-the-sand1.jpg&#34; alt=&#34;รูปจาก: http://management4volunteers.files.wordpress.com&#34; /&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>5 reasons to switch to JUnit&#39;s assertThat(...) today</title>
-      <link>http://yoursitehere/post/5-reasons-to-switch-to-junits-assertthat-today/</link>
+      <link>http://varokas.github.io/post/5-reasons-to-switch-to-junits-assertthat-today/</link>
       <pubDate>Tue, 19 Aug 2014 04:34:24 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/5-reasons-to-switch-to-junits-assertthat-today/</guid>
+      <guid>http://varokas.github.io/post/5-reasons-to-switch-to-junits-assertthat-today/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/junit-logo.png&#34; alt=&#34;junit-logo&#34; /&gt;
@@ -323,10 +323,10 @@ assertTrue(i &amp;gt; 0);
     
     <item>
       <title>ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist</title>
-      <link>http://yoursitehere/post/swift-agilist/</link>
+      <link>http://varokas.github.io/post/swift-agilist/</link>
       <pubDate>Sat, 09 Aug 2014 04:11:31 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/swift-agilist/</guid>
+      <guid>http://varokas.github.io/post/swift-agilist/</guid>
       <description>
 
 &lt;p&gt;ไม่ได้เขียนบล็อกเรื่อง Programming มานาน เดี๋ยวจะคิดว่านนเปลี่ยนไปทำไฟแนนซ์แล้ว วันนี้เลยอยากจะมาระบายอารมณ์​ (ทั้งอารมณ์ดีและอารมณ์เสีย) เรื่อง Swift จากมุมมองของ Agilist ซักหน่อย
@@ -413,10 +413,10 @@ protocol ScoreStateContext {
     
     <item>
       <title>5 เหตุผลที่ CFO คุณจะตกหลุมรัก Agile</title>
-      <link>http://yoursitehere/post/cfo-love-agile/</link>
+      <link>http://varokas.github.io/post/cfo-love-agile/</link>
       <pubDate>Tue, 05 Aug 2014 05:47:03 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/cfo-love-agile/</guid>
+      <guid>http://varokas.github.io/post/cfo-love-agile/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/cfo-final.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/cfo-final.jpg&#34; alt=&#34;cfo-final&#34; /&gt;
@@ -558,10 +558,10 @@ protocol ScoreStateContext {
     
     <item>
       <title>ฟอนต์นานาชาติฟรีจาก Google</title>
-      <link>http://yoursitehere/post/free-font-google/</link>
+      <link>http://varokas.github.io/post/free-font-google/</link>
       <pubDate>Sat, 26 Jul 2014 01:34:10 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/free-font-google/</guid>
+      <guid>http://varokas.github.io/post/free-font-google/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-25-at-6.13.41-PM.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/07/Screen-Shot-2014-07-25-at-6.13.41-PM-1024x616.png&#34; alt=&#34;Screen Shot 2014-07-25 at 6.13.41 PM&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -576,10 +576,10 @@ protocol ScoreStateContext {
     
     <item>
       <title>Translate JS Math into Latex</title>
-      <link>http://yoursitehere/post/translate-js-math-into-latex/</link>
+      <link>http://varokas.github.io/post/translate-js-math-into-latex/</link>
       <pubDate>Tue, 22 Jul 2014 03:14:27 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/translate-js-math-into-latex/</guid>
+      <guid>http://varokas.github.io/post/translate-js-math-into-latex/</guid>
       <description>&lt;p&gt;While working on &lt;a href=&#34;http://pastemath.varokas.com&#34;&gt;Pastemath&lt;/a&gt;, I stumbled upon the &lt;a href=&#34;http://mathjs.org/&#34;&gt;math.js&lt;/a&gt; library.
 &amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
 
@@ -593,10 +593,10 @@ protocol ScoreStateContext {
     
     <item>
       <title>Async Testing บน JavaScript</title>
-      <link>http://yoursitehere/post/async-testing-e0b89ae0b899-javascript/</link>
+      <link>http://varokas.github.io/post/async-testing-e0b89ae0b899-javascript/</link>
       <pubDate>Sat, 28 Jun 2014 22:43:23 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/async-testing-e0b89ae0b899-javascript/</guid>
+      <guid>http://varokas.github.io/post/async-testing-e0b89ae0b899-javascript/</guid>
       <description>&lt;p&gt;ใช้ Asynchronous โค้ดมักจะเทสได้ยาก เพราะเราไม่รู้ว่ามันจะไปจบลงเมื่อไหร่ เพราะเวลาเราเรียกฟังก์ชัน async เสร็จมันก็จะไปอยู่ในโลกของมันเอง ไม่กลับมาอีก&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;ซึ่งเทคนิคในการแก้ไขแบบนี้น่าจะมีได้หลายแบบ อย่างนึงที่คิดออกและเคยทำคือ ต้องให้ async code มันไปเขียนค่าใน shared variable ซักตัวนึง แล้วก็ให้เทสมันเช็คหลังจากรอไปซักพักนึง&lt;/p&gt;
@@ -620,10 +620,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>Agile Thailand 2014 เป็นของทุกคน</title>
-      <link>http://yoursitehere/post/agile-thailand-2014-is-for-everyone/</link>
+      <link>http://varokas.github.io/post/agile-thailand-2014-is-for-everyone/</link>
       <pubDate>Thu, 05 Jun 2014 06:45:28 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/agile-thailand-2014-is-for-everyone/</guid>
+      <guid>http://varokas.github.io/post/agile-thailand-2014-is-for-everyone/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/06/10154419_723192064368077_5624676864795596774_n.jpg?w=650&#34; alt=&#34;Image&#34; /&gt;
@@ -669,10 +669,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>มางาน Open Space แบบ ATH2014 ต้องทำตัวยังไงบ้าง?</title>
-      <link>http://yoursitehere/post/what-to-do-in-open-space/</link>
+      <link>http://varokas.github.io/post/what-to-do-in-open-space/</link>
       <pubDate>Wed, 30 Apr 2014 07:23:32 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/what-to-do-in-open-space/</guid>
+      <guid>http://varokas.github.io/post/what-to-do-in-open-space/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/04/openspace01.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/04/openspace01.jpg&#34; alt=&#34;OpenSpace01&#34; /&gt;
@@ -789,10 +789,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>Always look for one less thing to do</title>
-      <link>http://yoursitehere/post/always-look-for-one-less-thing-to-do/</link>
+      <link>http://varokas.github.io/post/always-look-for-one-less-thing-to-do/</link>
       <pubDate>Fri, 25 Apr 2014 05:52:01 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/always-look-for-one-less-thing-to-do/</guid>
+      <guid>http://varokas.github.io/post/always-look-for-one-less-thing-to-do/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/04/1780352_10152264722918690_1862834444_o.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/04/1780352_10152264722918690_1862834444_o.jpg&#34; alt=&#34;1780352_10152264722918690_1862834444_o&#34; /&gt;
@@ -838,10 +838,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>Pairing is Caring</title>
-      <link>http://yoursitehere/post/pairing-is-caring/</link>
+      <link>http://varokas.github.io/post/pairing-is-caring/</link>
       <pubDate>Sat, 08 Feb 2014 10:29:20 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/pairing-is-caring/</guid>
+      <guid>http://varokas.github.io/post/pairing-is-caring/</guid>
       <description>
 
 &lt;p&gt;หลังจากไปงาน Agile Open Northwest ผมเพิ่งได้ไปทำสิ่งที่อยากจะลองทำมานานแล้ว คือ ไปลองจับคู่คนที่ไม่ค่อยเก่งเรื่อง pair (ผมเอง) กับคนที่เก่งเรื่อง pair มาเจอกัน แล้วก็จับคู่มาสอนวิธี pair กันจะได้เก่งกันมากขึ้นๆ&lt;/p&gt;
@@ -894,10 +894,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>จะหวังให้แขนกับขา self-managed ได้อย่างไร?</title>
-      <link>http://yoursitehere/post/self-managed-arm-leg/</link>
+      <link>http://varokas.github.io/post/self-managed-arm-leg/</link>
       <pubDate>Fri, 31 Jan 2014 06:34:24 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/self-managed-arm-leg/</guid>
+      <guid>http://varokas.github.io/post/self-managed-arm-leg/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/01/hierarchy_in_the_open_office_451995.jpg?w=308&#34; alt=&#34;Image&#34; /&gt;
@@ -951,10 +951,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>Agile Thailand 2014 ในความฝัน (ตอนที่ 2: การจัดงาน)</title>
-      <link>http://yoursitehere/post/agile-thailand-2014-in-my-dream-part-2/</link>
+      <link>http://varokas.github.io/post/agile-thailand-2014-in-my-dream-part-2/</link>
       <pubDate>Thu, 30 Jan 2014 08:08:42 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/agile-thailand-2014-in-my-dream-part-2/</guid>
+      <guid>http://varokas.github.io/post/agile-thailand-2014-in-my-dream-part-2/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/01/545471_10150863433892371_540003832_n.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/01/545471_10150863433892371_540003832_n.jpg&#34; alt=&#34;545471_10150863433892371_540003832_n&#34; /&gt;
@@ -1004,10 +1004,10 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
     
     <item>
       <title>Agile Thailand 2014 ในความฝัน (ตอนที่ 1: รูปแบบงาน)</title>
-      <link>http://yoursitehere/post/agile-thailand-2014-proposal-format/</link>
+      <link>http://varokas.github.io/post/agile-thailand-2014-proposal-format/</link>
       <pubDate>Mon, 20 Jan 2014 08:14:22 +0000</pubDate>
       
-      <guid>http://yoursitehere/post/agile-thailand-2014-proposal-format/</guid>
+      <guid>http://varokas.github.io/post/agile-thailand-2014-proposal-format/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/01/579851_10150863482402371_974468146_n.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/01/579851_10150863482402371_974468146_n.jpg?w=650&#34; alt=&#34;Image&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
