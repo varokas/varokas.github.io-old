@@ -51,6 +51,64 @@
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>http://www.varokas.com/projects/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.varokas.com/projects/</guid>
+      <description>
+
+&lt;p&gt;I believe the best way to learn is by creating a safe environment to play, diving head first into it, laugh at your mistakes and think about how to do better next time. These are community projects I initiated, coached, and lead with&lt;/span&gt; software practitioners in Thailand on applications of software engineering.&lt;/p&gt;
+
+&lt;h3 id=&#34;agile-thailand-agile-tour-bangkok-conferences:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Agile Thailand &amp;amp; Agile Tour Bangkok Conferences&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/ath2013.jpg&#34; alt=&#34;ATH&#34; /&gt;
+I helped initiate and facilitate Thailand&amp;rsquo;s first and only national Agile conference series. All events are organized with Agile process and regular retrospective. Staff learned Agile planning, tracking and retrospective through organizing these events.&lt;a name=&#34;scrum_primer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;scrum-primer-translation:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Scrum Primer Translation&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/scrum_primer.png&#34; alt=&#34;Scrum Primer&#34; /&gt;
+I helped an online team of five learned Scrum by translating the first version of &lt;a href=&#34;http://www.scrumprimer.org/home&#34;&gt;Scrum Primer&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Presentation at Agile Tour Bangkok 2012 [&lt;a href=&#34;http://www.youtube.com/watch?v=LXRoZ6d_sSw&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Meeting Recordings [&lt;a href=&#34;http://www.youtube.com/watch?v=wvaZv4BRWTc&amp;amp;list=PL0BB86F3A56D2CCF7&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Sprints on Trello [&lt;a href=&#34;https://trello.com/b/rvKW0xo1/scrum-primer-translation&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Download [&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/06/ScrumPrimerThaiTranslation_v08.pdf&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;huskycode:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;HuskyCode&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Practice Agile methods in safe environments via online projects that help software community.&amp;rdquo; During the time HuskyCode was founded, there were unbelievably low number of Agile adoptions in Thailand and a place to safely practice these skills is non-existent. So I founded HuskyCode for all Agile enthusiast to meet and develop their skills in working together as a team. How to slice and negotiate the stories with product owners. How to deliver value incrementally to an online community project. These are the projects developed under HuskyCode.&lt;/p&gt;
+
+&lt;h5 id=&#34;foresee:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Foresee&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/foresee.png&#34; alt=&#34;Foresee&#34; /&gt;
+  Online planning poker tool. Practice TDD and Continuous Delivery on AngularJS and NodeJS based project&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Presentation at Agile Thailand 2013 [&lt;a href=&#34;http://www.seacademy.in.th/video/real-agile-huskycode-foresee&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Dev Group [&lt;a href=&#34;https://www.facebook.com/groups/foreseedev&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Sources [&lt;a href=&#34;https://github.com/huskycode/foresee&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;thailand-se-academy:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Thailand SE Academy&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/seacademy.png&#34; alt=&#34;SE Academy&#34; /&gt;
+&lt;span style=&#34;color: #444444;&#34;&gt;Second project for hands-on continuous delivery&lt;/span&gt;. Creating a website aim to collect Thailand&amp;rsquo;s SE materials in one place. Practice Continuous Delivery, Automated Infrastructure and TDD&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Website [&lt;a href=&#34;http://www.seacademy.in.th&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;The UAT Website [&lt;a href=&#34;http://uat.seacademy.in.th&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Presentation at Agile Tour Bangkok 2013 [link]&lt;/li&gt;
+&lt;li&gt;One of planning meeting session [&lt;a href=&#34;https://www.youtube.com/watch?v=9rcSvcj1Cck&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Dev Group [&lt;a href=&#34;https://github.com/huskycode/thsea&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Sources [&lt;a href=&#34;https://www.facebook.com/groups/thseacademy/&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Talks</title>
       <link>http://www.varokas.com/talks/</link>
       <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
@@ -182,64 +240,6 @@
 &lt;h4 id=&#34;measuring-requirements-engineering-success-link-http-www-varokas-com-wp-content-uploads-2010-03-measuring-requirements-engineering-success-pdf:49cbbfcf1124f111a37fcbac0faeb48e&#34;&gt;Measuring Requirements Engineering Success [&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2010/03/measuring-requirements-engineering-success.pdf&#34;&gt;link&lt;/a&gt;]&lt;/h4&gt;
 
 &lt;p&gt;Techniques and templates to measure effectiveness of requirements engineering in an organization.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://www.varokas.com/projects/</link>
-      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.varokas.com/projects/</guid>
-      <description>
-
-&lt;p&gt;I believe the best way to learn is by creating a safe environment to play, diving head first into it, laugh at your mistakes and think about how to do better next time. These are community projects I initiated, coached, and lead with&lt;/span&gt; software practitioners in Thailand on applications of software engineering.&lt;/p&gt;
-
-&lt;h3 id=&#34;agile-thailand-agile-tour-bangkok-conferences:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Agile Thailand &amp;amp; Agile Tour Bangkok Conferences&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/ath2013.jpg&#34; alt=&#34;ATH&#34; /&gt;
-I helped initiate and facilitate Thailand&amp;rsquo;s first and only national Agile conference series. All events are organized with Agile process and regular retrospective. Staff learned Agile planning, tracking and retrospective through organizing these events.&lt;a name=&#34;scrum_primer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;scrum-primer-translation:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Scrum Primer Translation&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/scrum_primer.png&#34; alt=&#34;Scrum Primer&#34; /&gt;
-I helped an online team of five learned Scrum by translating the first version of &lt;a href=&#34;http://www.scrumprimer.org/home&#34;&gt;Scrum Primer&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Presentation at Agile Tour Bangkok 2012 [&lt;a href=&#34;http://www.youtube.com/watch?v=LXRoZ6d_sSw&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Meeting Recordings [&lt;a href=&#34;http://www.youtube.com/watch?v=wvaZv4BRWTc&amp;amp;list=PL0BB86F3A56D2CCF7&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Sprints on Trello [&lt;a href=&#34;https://trello.com/b/rvKW0xo1/scrum-primer-translation&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Download [&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/06/ScrumPrimerThaiTranslation_v08.pdf&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;huskycode:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;HuskyCode&lt;/h2&gt;
-
-&lt;p&gt;&amp;ldquo;Practice Agile methods in safe environments via online projects that help software community.&amp;rdquo; During the time HuskyCode was founded, there were unbelievably low number of Agile adoptions in Thailand and a place to safely practice these skills is non-existent. So I founded HuskyCode for all Agile enthusiast to meet and develop their skills in working together as a team. How to slice and negotiate the stories with product owners. How to deliver value incrementally to an online community project. These are the projects developed under HuskyCode.&lt;/p&gt;
-
-&lt;h5 id=&#34;foresee:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Foresee&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/foresee.png&#34; alt=&#34;Foresee&#34; /&gt;
-  Online planning poker tool. Practice TDD and Continuous Delivery on AngularJS and NodeJS based project&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Presentation at Agile Thailand 2013 [&lt;a href=&#34;http://www.seacademy.in.th/video/real-agile-huskycode-foresee&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Dev Group [&lt;a href=&#34;https://www.facebook.com/groups/foreseedev&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Sources [&lt;a href=&#34;https://github.com/huskycode/foresee&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;thailand-se-academy:3c42bb4157bf51d85ae7ffc4e1685909&#34;&gt;Thailand SE Academy&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/seacademy.png&#34; alt=&#34;SE Academy&#34; /&gt;
-&lt;span style=&#34;color: #444444;&#34;&gt;Second project for hands-on continuous delivery&lt;/span&gt;. Creating a website aim to collect Thailand&amp;rsquo;s SE materials in one place. Practice Continuous Delivery, Automated Infrastructure and TDD&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The Website [&lt;a href=&#34;http://www.seacademy.in.th&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;The UAT Website [&lt;a href=&#34;http://uat.seacademy.in.th&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Presentation at Agile Tour Bangkok 2013 [link]&lt;/li&gt;
-&lt;li&gt;One of planning meeting session [&lt;a href=&#34;https://www.youtube.com/watch?v=9rcSvcj1Cck&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Dev Group [&lt;a href=&#34;https://github.com/huskycode/thsea&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Sources [&lt;a href=&#34;https://www.facebook.com/groups/thseacademy/&#34;&gt;link&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
