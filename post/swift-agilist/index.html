@@ -7,55 +7,72 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist &middot; varokas </title>
+  <title>ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist</title>
 
   
   <link rel="stylesheet" href="http://varokas.github.io//css/poole.css">
-  <link rel="stylesheet" href="http://varokas.github.io//css/syntax.css">
   <link rel="stylesheet" href="http://varokas.github.io//css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://varokas.github.io//css/poole-overrides.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/hyde-x.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/highlight/railscasts.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="/favicon.png" rel="icon">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="varokas" />
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
 </head>
-
 <body>
-
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
-      <h1>varokas</h1>
-      <p class="lead">
-      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
-      </p>
+      
+      <h1><a href="/">VP</a></h1>
+      <p class="lead"><p>Minimal Engineering</p>
+</p>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
+      <li class="sidebar-nav-item"><a href="http://varokas.github.io//">Blog</a></li>
       
     </ul>
+  </div>
 
-    <p>&copy; 2015. All rights reserved. </p>
+  <div class="container sidebar-sticky">
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://www.github.com/varokas" class="github-icon"><i class="fa fa-github-square fa-2x"></i></a>
+      
+      <a href="https://www.linkedin.com/in/varokas" class="linkedin-icon"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      
+      <a href="https://www.facebook.com/varokas" class="facebook-icon"><i class="fa fa-facebook-square fa-2x"></i></a>
+      
+      </li>
+    </ul>
   </div>
 </div>
 
 
-    <div class="content container">
-<div class="post">
-  <h1>ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist</h1>
-  <span class="post-date">Sat, Aug 9, 2014</span>
-      
+<div class="content container">
+  <div class="post">
+    <h1>ระบายอารมณ์เรื่อง Swift ในมุมมองของ Agilist</h1>
+    
 
-<p>ไม่ได้เขียนบล็อกเรื่อง Programming มานาน เดี๋ยวจะคิดว่านนเปลี่ยนไปทำไฟแนนซ์แล้ว วันนี้เลยอยากจะมาระบายอารมณ์​ (ทั้งอารมณ์ดีและอารมณ์เสีย) เรื่อง Swift จากมุมมองของ Agilist ซักหน่อย
-&lt;!&ndash; more &ndash;&gt;</p>
+<p>ไม่ได้เขียนบล็อกเรื่อง Programming มานาน เดี๋ยวจะคิดว่านนเปลี่ยนไปทำไฟแนนซ์แล้ว วันนี้เลยอยากจะมาระบายอารมณ์​ (ทั้งอารมณ์ดีและอารมณ์เสีย) เรื่อง Swift จากมุมมองของ Agilist ซักหน่อย</p>
 
 <p>จริงๆ ไม่เคยอยากจะแตะอะไรเกี่ยวกับ iOS เลยตั้งแต่เห็น Objective-C แว๊บแรกแล้ว เพราะดูน่ากลัวมาก ไม่น่าเชื่อว่าไอ้ที่เราถูๆ ลื่นๆ บนไอโฟนมันจะถูกเขียนอยู่บนอะไรที่โบราณขนาดนี้ เข้าใจว่าหลายคนก็คงไม่อยากจะไปยุ่งกับมันหรอก แต่ทำไงได้มันไม่มีทางเลือก</p>
 
-<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7-1024x588.png" alt="2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7" />
+<p><a href="/images/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7.png"><img src="/images/2014/08/2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7-1024x588.png" alt="2a79d285a6f440d61b4bde229e0fe04e1ff1c9b7" />
 </a></p>
 
 <p>พอ Apple ประกาศ​ Swift แว๊บแรกนี่ดูดีมากเลย&hellip; พยายามจะไปโหลดทันที แต่..เสียตังค์ T_T</p>
@@ -86,14 +103,14 @@
 
 <p>อันนี้ไม่รู้ว่าก็อบมาจาก Scala หรือเปล่า แต่ชอบมากตรงที่ String Interpolation ก็โดนเช็คด้วย หมดปัญหาข้อความพังอีกต่อไป (ลาก่อน sprintf)</p>
 
-<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png" alt="Screen Shot 2014-07-15 at 5.19.47 PM" />
+<p><a href="/images/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png"><img src="/images/2014/08/Screen-Shot-2014-07-15-at-5.19.47-PM.png" alt="Screen Shot 2014-07-15 at 5.19.47 PM" />
 </a></p>
 
 <h2 id="อารมณ-เส-ย-refactoring:acf2f6a40a02890e5164c61d395a7789">อารมณ์เสีย : Refactoring</h2>
 
 <p>เอาไปรูปเดียวแทนได้เป็นพันคำ</p>
 
-<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png" alt="Screen Shot 2014-07-16 at 11.53.11 AM" />
+<p><a href="/images/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png"><img src="/images/2014/08/Screen-Shot-2014-07-16-at-11.53.11-AM.png" alt="Screen Shot 2014-07-16 at 11.53.11 AM" />
 </a></p>
 
 <p>ก็ยังอุตส่าห์เป็นไอเท็มในเมนูให้คลิ๊กแล้วผิดหวังอ่ะนะ อย่างน้อยขอ Extract Method ก็ยังดีนะครับ -*- เอาไว้จัดโค้ดง่ายๆ นี่ต้องมาก๊อบมือเองหมดเลย (ไม่ทำ TDD ไม่รู้หรอก)</p>
@@ -115,7 +132,7 @@ protocol ScoreStateContext {
 }
 [/code]</p>
 
-<p><a href="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png"><img src="http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png" alt="Screen Shot 2014-07-16 at 11.46.53 AM" />
+<p><a href="/images/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png"><img src="/images/2014/08/Screen-Shot-2014-07-16-at-11.46.53-AM.png" alt="Screen Shot 2014-07-16 at 11.46.53 AM" />
 </a></p>
 
 <p>นี่ไม่ได้ตั้งใจแกล้งนะ กำลังลอง refactor มันเป็น state pattern ใช้งานจริงๆ</p>
@@ -130,8 +147,36 @@ protocol ScoreStateContext {
 
 <p>ปล.​ กรุณาอย่าด่าว่า ทำไมเขียนโค้ดในไฟล์เทส เพราะพยายามแล้วแต่เซ็ตโปรเจค XCode ไม่เป็นเลยซักนิดเดียว T_T</p>
 
-</div>
-</div>
+  </div>
 
-  </body>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+var disqus_shortname = 'varokas';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+<script src="http://varokas.github.io//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-37124574-3'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</body>
 </html>
+

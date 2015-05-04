@@ -7,58 +7,78 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> 5 reasons to switch to JUnit&#39;s assertThat(...) today &middot; varokas </title>
+  <title>5 reasons to switch to JUnit&#39;s assertThat(...) today</title>
 
   
   <link rel="stylesheet" href="http://varokas.github.io//css/poole.css">
-  <link rel="stylesheet" href="http://varokas.github.io//css/syntax.css">
   <link rel="stylesheet" href="http://varokas.github.io//css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://varokas.github.io//css/poole-overrides.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/hyde-x.css">
+  <link rel="stylesheet" href="http://varokas.github.io//css/highlight/railscasts.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="/favicon.png" rel="icon">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="varokas" />
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
 </head>
-
 <body>
-
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
-      <h1>varokas</h1>
-      <p class="lead">
-      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
-      </p>
+      
+      <h1><a href="/">VP</a></h1>
+      <p class="lead"><p>Minimal Engineering</p>
+</p>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
+      <li class="sidebar-nav-item"><a href="http://varokas.github.io//">Blog</a></li>
       
     </ul>
+  </div>
 
-    <p>&copy; 2015. All rights reserved. </p>
+  <div class="container sidebar-sticky">
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://www.github.com/varokas" class="github-icon"><i class="fa fa-github-square fa-2x"></i></a>
+      
+      <a href="https://www.linkedin.com/in/varokas" class="linkedin-icon"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      
+      <a href="https://www.facebook.com/varokas" class="facebook-icon"><i class="fa fa-facebook-square fa-2x"></i></a>
+      
+      </li>
+    </ul>
   </div>
 </div>
 
 
-    <div class="content container">
-<div class="post">
-  <h1>5 reasons to switch to JUnit&#39;s assertThat(...) today</h1>
-  <span class="post-date">Tue, Aug 19, 2014</span>
-      
+<div class="content container">
+  <div class="post">
+    <h1>5 reasons to switch to JUnit&#39;s assertThat(...) today</h1>
+    
 
-<p><img src="http://www.varokas.com/wp-content/uploads/2014/08/junit-logo.png" alt="junit-logo" />
+<p><img src="/images/2014/08/junit-logo.png" alt="junit-logo" />
 </p>
 
 <p>It bugs me that a good number of Java developers still use these two assert methods when dealing with JUnit.</p>
 
-<p>[code language=&ldquo;java&rdquo;]
+<p><pre><code class="java">
 assertEquals(expected, actual);
-assertTrue(i &gt; 0);
-[/code]</p>
+assertTrue(i > 0);
+
+</code></pre>
+</p>
 
 <p>Yes, there are more asserts methods, but these two guys are pretty much what you&rsquo;d use all the time.</p>
 
@@ -74,23 +94,28 @@ assertTrue(i &gt; 0);
 
 <p>That&rsquo;s how all code should be read and understand.</p>
 
-<p>[code language=&ldquo;java&rdquo;]
-  int inputValue = 2;
-  int expectedValue = 2;</p>
+<p><pre><code class="java">
+int inputValue = 2;
+int expectedValue = 2;
 
-<p>assertThat(compute(), is(expectedValue));
-[/code]</p>
+assertThat(compute(), is(expectedValue));
+
+</code></pre>
+</p>
 
 <h2 id="2-it-is-expressive:e977bb9b49819df86c98368907f7484e">2. It is expressive</h2>
 
-<p>Even if you don&rsquo;t buy the &ldquo;left-to-right&rdquo; argument. assertThat(..) reads much better in almost every situations.
-[code language=&ldquo;java&rdquo;]
-  int smaller = 2;
-  int larger = 3;</p>
+<p>Even if you don&rsquo;t buy the &ldquo;left-to-right&rdquo; argument. assertThat(..) reads much better in almost every situations.</p>
 
-<p>/* pretty isn&rsquo;t it? */
-  assertThat(larger, is(greaterThan(smaller)));
-[/code]</p>
+<p><pre><code class="java">
+int smaller = 2;
+int larger = 3;
+
+/* pretty isn't it? */
+assertThat(larger, is(greaterThan(smaller)));
+
+</code></pre>
+</p>
 
 <h2 id="3-it-produces-readable-error-messages:e977bb9b49819df86c98368907f7484e">3. It produces readable error messages</h2>
 
@@ -98,51 +123,53 @@ assertTrue(i &gt; 0);
 
 <p>Would you rather have just &ldquo;OMG, something is wrong&rdquo;.</p>
 
-<p>[code language=&ldquo;java&rdquo;]
-  int smaller = 2;
-  int larger = 3;</p>
+<p><pre><code class="java">
+int smaller = 2;
+int larger = 3;
 
-<p>//you&rsquo;ll get this message: &ldquo;java.lang.AssertionError&rdquo;. WTH?
-  assertTrue(smaller &gt; larger);
-[/code]</p>
+//you'll get this message: "java.lang.AssertionError". WTH?
+assertTrue(smaller > larger);
+
+</code></pre>
+</p>
 
 <p>Or a detailed message on what is to expect, what is the actual value, pretty much for free?</p>
 
-<p>[code language=&ldquo;java&rdquo;]
-        int smaller = 2;
-        int larger = 3;</p>
+<p><pre><code class="java">
+int smaller = 2;
+int larger = 3;
 
-<pre><code>    //Gives you:
-    //  java.lang.AssertionError:
-    //  Expected: is a value greater than &lt;3&gt;
-    //       but: &lt;2&gt; was less than &lt;3&gt;
-    //
-    // Clear, concise, effortless
-    assertThat(smaller, is(greaterThan(larger)));
+//Gives you:
+//  java.lang.AssertionError:
+//  Expected: is a value greater than <3>
+//       but: <2> was less than <3>
+//
+// Clear, concise, effortless
+assertThat(smaller, is(greaterThan(larger)));
+
 </code></pre>
-
-<p>[/code]</p>
+</p>
 
 <h2 id="4-it-works-really-well-with-collections:e977bb9b49819df86c98368907f7484e">4. It works really well with collections</h2>
 
 <p>One of the most miserable things you have to do with traditional assert is to loop through a list to look for some item. Using assertThat feels especially great once you realized how much code you don&rsquo;t have to write (and to come back to read later).</p>
 
-<p>[code language=&ldquo;java&rdquo;]
-        List<Integer> fibonacci = Arrays.asList(1,2,3,5,8,13);</p>
+<p><pre><code class="java">
+List<Integer> fibonacci = Arrays.asList(1,2,3,5,8,13);
 
-<pre><code>    //Don't do this, please
-    boolean found = false;
-    for(int i : fibonacci) {
-        if( i == 5) found = true;
-    }
-    assertTrue( &quot;number 5 is in list&quot;, found );
+//Don't do this, please
+boolean found = false;
+for(int i : fibonacci) {
+    if( i == 5) found = true;
+}
+assertTrue( "number 5 is in list", found );
 
-    //assertThat is way better
-    assertThat(fibonacci, hasItem(5));
-    assertThat(fibonacci, not(hasItem(lessThan(0))));
+//assertThat is way better
+assertThat(fibonacci, hasItem(5));
+assertThat(fibonacci, not(hasItem(lessThan(0))));
+
 </code></pre>
-
-<p>[/code]</p>
+</p>
 
 <h2 id="5-you-can-actually-start-using-it-right-now-without-any-changes:e977bb9b49819df86c98368907f7484e">5. You can actually start using it right now, without any changes</h2>
 
@@ -156,42 +183,70 @@ assertTrue(i &gt; 0);
 
 <p>These are some of the assertions I use all the time.</p>
 
-<p>[code language=&ldquo;java&rdquo;]
-        //Imagine writing all these by hand&hellip;
-        //
-        //ps. (are you doing this everyday?)</p>
+<p><pre><code class="java">
+//Imagine writing all these by hand...
+//
+//ps. (are you doing this everyday?)
 
-<pre><code>    //String stuff
-    assertThat(&quot;iGNoreMyCasePlease&quot;, equalToIgnoringCase(&quot;ignoreMyCasePlease&quot;));
-    assertThat(null, isEmptyOrNullString());
+//String stuff
+assertThat("iGNoreMyCasePlease", equalToIgnoringCase("ignoreMyCasePlease"));
+assertThat(null, isEmptyOrNullString());
 
-    //Math stuff
-    assertThat(4, both(greaterThan(3)).and(lessThan(5)));
+//Math stuff
+assertThat(4, both(greaterThan(3)).and(lessThan(5)));
 
-    //Collections Stuff
-    assertThat(new ArrayList&lt;Integer&gt;(), is(empty()));
+//Collections Stuff
+assertThat(new ArrayList<Integer>(), is(empty()));
 
-    assertThat(Arrays.asList(1,2,3), hasItem(1));
-    assertThat(Arrays.asList(1,2,3), containsInAnyOrder(3, 1, 2));
-    assertThat(Arrays.asList(1,2,3), hasSize(greaterThan(0)));
+assertThat(Arrays.asList(1,2,3), hasItem(1));
+assertThat(Arrays.asList(1,2,3), containsInAnyOrder(3, 1, 2));
+assertThat(Arrays.asList(1,2,3), hasSize(greaterThan(0)));
 
-    //Map Stuff
-    Map&lt;Integer, String&gt; numbers = new HashMap&lt;Integer, String&gt;();
-    numbers.put(1, &quot;one&quot;);
-    numbers.put(2, &quot;two&quot;);
-    numbers.put(3, &quot;three&quot;);
+//Map Stuff
+Map<Integer, String> numbers = new HashMap<Integer, String>();
+numbers.put(1, "one");
+numbers.put(2, "two");
+numbers.put(3, "three");
 
-    assertThat(numbers, hasEntry(1, &quot;one&quot;));
-    assertThat(numbers, hasKey(2));
-    assertThat(numbers, hasValue(&quot;three&quot;));
+assertThat(numbers, hasEntry(1, "one"));
+assertThat(numbers, hasKey(2));
+assertThat(numbers, hasValue("three"));
 
-    assertThat(numbers, hasKey(greaterThan(0)));
+assertThat(numbers, hasKey(greaterThan(0)));
+
 </code></pre>
+</p>
 
-<p>[/code]</p>
+  </div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+var disqus_shortname = 'varokas';
+    
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 </div>
-</div>
+<script src="http://varokas.github.io//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
-  </body>
+<script>
+  var _gaq=[['_setAccount','UA-37124574-3'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</body>
 </html>
+

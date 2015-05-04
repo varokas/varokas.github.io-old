@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Investment on varokas</title>
+    <title>Investment on VP</title>
     <link>http://varokas.github.io/categories/investment/</link>
-    <description>Recent content in Investment on varokas</description>
+    <description>Recent content in Investment on VP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Aug 2014 02:18:56 +0000</lastBuildDate>
@@ -17,16 +17,15 @@
       <guid>http://varokas.github.io/post/discounted-cash-flow/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/07/goose.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/07/goose.jpg&#34; alt=&#34;goose&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/07/goose.jpg&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/07/goose.jpg&#34; alt=&#34;goose&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;ใครมาถึงโพสนี้เลยกลับไปอ่านสองอันแรกก่อน อันนี้จะต่อยอดมาจาก discounted value นะ
-&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;p&gt;ใครมาถึงโพสนี้เลยกลับไปอ่านสองอันแรกก่อน อันนี้จะต่อยอดมาจาก discounted value นะ&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/power-of-compound-interest/&#34;&gt;พลังของดอกเบี้ยทบต้น&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/post/power-of-compound-interest/&#34;&gt;พลังของดอกเบี้ยทบต้น&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/pricing-discount-value/&#34;&gt;พื้นฐานคำนวณราคาหุ้น : Discounted Value&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/post/pricing-discount-value/&#34;&gt;พื้นฐานคำนวณราคาหุ้น : Discounted Value&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;ซ-อห-นแล-วได-อะไร:8a95086c5c4218d309450bd2fdcddb4d&#34;&gt;ซื้อหุ้นแล้วได้อะไร?&lt;/h2&gt;
@@ -70,72 +69,72 @@
 
 &lt;tbody &gt;
 &lt;tr &gt;
-  
+
 &lt;td &gt;1
 &lt;/td&gt;
-  
+
 &lt;td &gt;100
 &lt;/td&gt;
-  
+
 &lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{1}}&amp;s;=2$
 &lt;/td&gt;
-  
+
 &lt;td &gt;96
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr &gt;
-  
+
 &lt;td &gt;2
 &lt;/td&gt;
-  
+
 &lt;td &gt;100
 &lt;/td&gt;
-  
+
 &lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{2}}&amp;s;=2$
 &lt;/td&gt;
-  
+
 &lt;td &gt;92
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr &gt;
-  
+
 &lt;td &gt;3
 &lt;/td&gt;
-  
+
 &lt;td &gt;100
 &lt;/td&gt;
-  
+
 &lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{3}}&amp;s;=2$
 &lt;/td&gt;
-  
+
 &lt;td &gt;89
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr &gt;
-  
+
 &lt;td &gt;4
 &lt;/td&gt;
-  
+
 &lt;td &gt;100
 &lt;/td&gt;
-  
+
 &lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{4}}&amp;s;=2$
 &lt;/td&gt;
-  
+
 &lt;td &gt;85
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr &gt;
-  
+
 &lt;td &gt;5
 &lt;/td&gt;
-  
+
 &lt;td &gt;100
 &lt;/td&gt;
-  
+
 &lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{5}}&amp;s;=2$
 &lt;/td&gt;
-  
+
 &lt;td &gt;82
 &lt;/td&gt;
 &lt;/tr&gt;
@@ -164,8 +163,7 @@
       <guid>http://varokas.github.io/post/pricing-discount-value/</guid>
       <description>
 
-&lt;p&gt;จะเลือกซื้อหุ้นแบบ value มันก็เหมือนเลือกซื้อของทั่วไป ต้องทำสองอย่าง
-&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;p&gt;จะเลือกซื้อหุ้นแบบ value มันก็เหมือนเลือกซื้อของทั่วไป ต้องทำสองอย่าง&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;ซื้อของดี&lt;/p&gt;&lt;/li&gt;
@@ -224,11 +222,11 @@
       
       <guid>http://varokas.github.io/post/power-of-compound-interest/</guid>
       <description>&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img src=&#34;http://www.bellanaija.com/wp-content/uploads/2012/06/Fundraising.jpg&#34; alt=&#34;&#34; /&gt;
- ที่มารูป: &lt;a href=&#34;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/[/caption&#34;&gt;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/[/caption&lt;/a&gt;]&lt;/p&gt;
+ ที่มารูป: &lt;a href=&#34;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/&#34;&gt;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;ทุกคนที่เริ่มลงทุน บทเรียนแรกคือการเข้าใจก่อนว่า ถ้าอยากจะเก็บเงินใช้ ต้องมีการบริหารจัดการให้มันได้ผลตอบแทนงอกขึ้นมาด้วย
-&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;
-ต้องรู้ว่าเงินถ้าไม่ได้ทิ้งไว้เฉยๆ แล้วเอาไปทำให้เกิดดอกผลขึ้นมา ถึงจะมีดอกเบี้ยกระจิดริดแค่ไหน ถ้าอาศัยเวลาและพลังแห่งดอกเบี้ยทบต้นมันจะกลายเป็นเงินจำนวนมหาศาล&lt;/p&gt;
+&lt;p&gt;ทุกคนที่เริ่มลงทุน บทเรียนแรกคือการเข้าใจก่อนว่า ถ้าอยากจะเก็บเงินใช้ ต้องมีการบริหารจัดการให้มันได้ผลตอบแทนงอกขึ้นมาด้วย&lt;/p&gt;
+
+&lt;p&gt;ต้องรู้ว่าเงินถ้าไม่ได้ทิ้งไว้เฉยๆ แล้วเอาไปทำให้เกิดดอกผลขึ้นมา ถึงจะมีดอกเบี้ยกระจิดริดแค่ไหน ถ้าอาศัยเวลาและพลังแห่งดอกเบี้ยทบต้นมันจะกลายเป็นเงินจำนวนมหาศาล&lt;/p&gt;
 
 &lt;p&gt;เพราะฉะนั้นถ้าอยากมีเงินเก็บไว้ใช้เยอะๆไม่จำเป็นต้องมีเยอะ แต่อาศัยเก็บตั้งแต่เด็กแล้วปล่อยทิ้งไว้ยาวๆ&lt;/p&gt;
 
@@ -248,8 +246,7 @@
       <guid>http://varokas.github.io/post/e0b980e0b8a5e0b8b7e0b8ade0b881e0b8abe0b8b8e0b989e0b899e0b894e0b8b5e0b8a2e0b8b1e0b887e0b984e0b887/</guid>
       <description>
 
-&lt;p&gt;คนไหนกำลังลงทุนแบบ Value อยู่ แนะนำให้ดู 19 คลิปนี้ใน playlist นี้นะครับ อธิบายไว้ค่อนข้างดีมากเลย แต่อาจจะมีมุกไม่เกี่ยวเยอะหน่อย ใครไม่อยากซื้อหุ้น ดูแล้วอาจจะอยากซื้อขึ้นมาก็ได้ ผมยังดูไม่จบ แต่อยากจะ Blog ข้อมูลสำคัญไว้ก่อน เผื่อกลับมาอ่านได้
- &amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;p&gt;คนไหนกำลังลงทุนแบบ Value อยู่ แนะนำให้ดู 19 คลิปนี้ใน playlist นี้นะครับ อธิบายไว้ค่อนข้างดีมากเลย แต่อาจจะมีมุกไม่เกี่ยวเยอะหน่อย ใครไม่อยากซื้อหุ้น ดูแล้วอาจจะอยากซื้อขึ้นมาก็ได้ ผมยังดูไม่จบ แต่อยากจะ Blog ข้อมูลสำคัญไว้ก่อน เผื่อกลับมาอ่านได้&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OOu47G3bqms&amp;amp;list=PLXylIzHOm7Yostmj6302AAuQ9kdogYrIM&#34;&gt;https://www.youtube.com/watch?v=OOu47G3bqms&amp;amp;list=PLXylIzHOm7Yostmj6302AAuQ9kdogYrIM&lt;/a&gt;&lt;/p&gt;
 

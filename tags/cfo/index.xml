@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cfo on varokas</title>
+    <title>Cfo on VP</title>
     <link>http://varokas.github.io/tags/cfo/</link>
-    <description>Recent content in Cfo on varokas</description>
+    <description>Recent content in Cfo on VP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Aug 2014 05:47:03 +0000</lastBuildDate>
@@ -17,15 +17,14 @@
       <guid>http://varokas.github.io/post/cfo-love-agile/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/cfo-final.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/cfo-final.jpg&#34; alt=&#34;cfo-final&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/cfo-final.jpg&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/cfo-final.jpg&#34; alt=&#34;cfo-final&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;อไจล์หลายทีมเริ่มมาจากกลุ่มของโปรแกรมเมอร์เอา practice ต่างๆ ของ Scrum, Kanban, XP มาลองทำแล้วก็พบว่า ส่งมอบของได้เรื่อยๆสม่ำเสมอ ลูกค้ามีความสุข แล้วทีมก็มีความสุข ทุกคนมีความสุข&lt;/p&gt;
 
 &lt;p&gt;แต่พอไปเสนอกับฝ่ายบัญชีหรือจะเป็นท่าน CFO โดยตรงอาจจะโดนถามว่า &amp;ldquo;สนุกแล้วงานเสร็จเร็วขึ้นหรอ?&amp;rdquo; ก็คงมึนกันไปซักพัก&lt;/p&gt;
 
-&lt;p&gt;เพราะฝ่ายบัญชีเป็นผู้กุมกระเป๋าตังค์ของบริษัทต้องคิดรอบคอบว่าทุกอย่างในบริษัทจะต้องทำให้บริษัทมีกำไรต่อไป เกิดเงินหมุนเวียนมาจ่ายเหล่าพนักงานผู้มีความสุขกับการส่งมอบซอฟต์แวร์อย่างสม่ำเสมอ คำถามเรื่องเงินๆทองๆ ก็เป็นเรื่องธรรมดา
-&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;p&gt;เพราะฝ่ายบัญชีเป็นผู้กุมกระเป๋าตังค์ของบริษัทต้องคิดรอบคอบว่าทุกอย่างในบริษัทจะต้องทำให้บริษัทมีกำไรต่อไป เกิดเงินหมุนเวียนมาจ่ายเหล่าพนักงานผู้มีความสุขกับการส่งมอบซอฟต์แวร์อย่างสม่ำเสมอ คำถามเรื่องเงินๆทองๆ ก็เป็นเรื่องธรรมดา&lt;/p&gt;
 
 &lt;p&gt;เรามาดูกันว่าทำไม CFO คุณถ้าได้ลองอไจล์แล้ว จะติดหนึบไม่ไปไหน เอาไว้ไปคุยกันจะได้มีความสุขครบกันทุกคน&lt;/p&gt;
 
@@ -48,14 +47,14 @@
 
 &lt;p&gt;ปัญหาคือแล้วมีอะไรรับประกันว่า ตอนช่วงหลังๆมันจะทำงานได้ตามที่วางแผน เช่น ตอนนี้กำลังเก็บ requirement และ design อยู่ แล้วใช้เวลาเกินไปจากแผนในขั้นนี้ 10% จะคิดง่ายๆ ได้ไหมว่าทุกๆ phase ของการทำงาน (dev/test/deploy) ก็จะเกินมา 10% เหมือนกัน? หรือจะบอกว่าไม่เกินหรอก(แล้วค่อยไปเพิ่มเอาทีหลัง)​ จะทำแบบไหนดี? จะบอกให้คนอื่นเชื่อตามเราได้ยังไงว่าประเมินขั้นถัดไปถูกต้อง?&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_816&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;982&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/ganttchart.gif&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/ganttchart.gif&#34; alt=&#34;ที่มา: http://www.virtualboss.net/screenshots/ganttchart.htm&#34; /&gt;
-&lt;/a&gt; ที่มา: &lt;a href=&#34;http://www.virtualboss.net/screenshots/ganttchart.htm[/caption&#34;&gt;http://www.virtualboss.net/screenshots/ganttchart.htm[/caption&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/ganttchart.gif&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/ganttchart.gif&#34; alt=&#34;ที่มา: http://www.virtualboss.net/screenshots/ganttchart.htm&#34; /&gt;
+&lt;/a&gt; ที่มา: &lt;a href=&#34;http://www.virtualboss.net/screenshots/ganttchart.htm&#34;&gt;http://www.virtualboss.net/screenshots/ganttchart.htm&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;เอาข้อมูลจากในอดีตไหม? ปกติเราใช้เวลาเกินไปเท่าไหร่? แล้วโปรเจคไหนเอามาเทียบได้? ความเสี่ยงเท่ากันไหม? คนทำกลุ่มเดียวกันหรือเปล่า? (มึนหรือยัง?)&lt;/p&gt;
 
 &lt;p&gt;อไจล์ช่วยตรงจุดนี้ได้เพราะเราจงใจทำ software ทั้งกระบวนการจนกระทั่งเข็น feature มาใช้งานได้จนจบเลยในไม่กี่สัปดาห์ สมมติว่าเรามีของใน backlog ของงานอยู่ 100 หน่วย ทำเสร็จไปแล้ว 20 หน่วยในเดือนเดียว คิดเลขไม่ยากเลยใช่ไหม? ว่าอีก 4 เดือนก็น่าจะเสร็จอีก 80 หน่วยที่เหลือ (ยังไม่นับว่าของที่เสร็จแล้วอาจจะเอาไปใช้งานได้ประโยชน์ก่อนด้วยนะ)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-04-at-10.05.56-PM.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-04-at-10.05.56-PM.png&#34; alt=&#34;Screen Shot 2014-08-04 at 10.05.56 PM&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/Screen-Shot-2014-08-04-at-10.05.56-PM.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/Screen-Shot-2014-08-04-at-10.05.56-PM.png&#34; alt=&#34;Screen Shot 2014-08-04 at 10.05.56 PM&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;จุดสำคัญคือ มั่นใจในตัวเลขประมาณการได้มากกว่าเยอะ เอาข้อมูลจากในโปรเจคจริงๆ ที่ทำนั่นแหละ มาประมาณสิ่งที่จะเกิดต่อไปในอนาคต กิจกรรมทุกแบบของโปรเจคในอีก 80 หน่วยที่เหลือ เราทำหมดแล้วใน 20 หน่วยแรก ตั้งแต่เก็บข้อมูล ออกแบบ เขียน เทส จนเข็นออกมาลองใช้งานดู&lt;/p&gt;
@@ -64,24 +63,24 @@
 
 &lt;p&gt;ของแถมคือทีมอไจล์(โดยเฉพาะสกรัม) ส่วนมากทำการประเมินตรงนี้เป็นประจำอยู่แล้วตอนผ่าน Release Burndown เดินไปถามได้ทันทีทุกเวลาที่ต้องการ&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_835&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/releaseburndown.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/releaseburndown.png&#34; alt=&#34;รูปจาก http://www.mountaingoatsoftware.com/agile/scrum/release-burndown&#34; /&gt;
-&lt;/a&gt; รูปจาก &lt;a href=&#34;http://www.mountaingoatsoftware.com/agile/scrum/release-burndown[/caption&#34;&gt;http://www.mountaingoatsoftware.com/agile/scrum/release-burndown[/caption&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/releaseburndown.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/releaseburndown.png&#34; alt=&#34;รูปจาก http://www.mountaingoatsoftware.com/agile/scrum/release-burndown&#34; /&gt;
+&lt;/a&gt; รูปจาก &lt;a href=&#34;http://www.mountaingoatsoftware.com/agile/scrum/release-burndown&#34;&gt;http://www.mountaingoatsoftware.com/agile/scrum/release-burndown&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;2-ค-าใช-จ-ายตรงไปตรงมา:0cc3ac35e9888fbedb2f67e45e572096&#34;&gt;2. ค่าใช้จ่ายตรงไปตรงมา&lt;/h2&gt;
 
 &lt;p&gt;อไจล์ทำให้ตัดคำถามอมตะที่น่าปวดหัวออกไปได้ว่า &amp;ldquo;ใช้ทีมไหนเมื่อไหร่?&amp;rdquo; (Dev, QA, BA, test, infra, &amp;hellip;)&lt;/p&gt;
 
-&lt;p&gt;ถ้าเป็น waterfall ก็ต้องมาเล็งว่า กี่เดือนจะเก็บ requirement เสร็จ แล้วจะได้เอาทีม Dev มาเสียบต่อ แล้วถ้าเค้าไม่เสร็จตามกำหนดล่ะ? จะต้องไปทำเรื่องคุยกับใครว่าต้องดึง BA มานานอีกหน่อย? ชะลองานของ Dev ออกไปไหม? (ช่วงนี้ก็เกิดอาการสูญญากาศ &amp;ldquo;ว่างงาน&amp;rdquo; ของทีม Dev ไป)&lt;/p&gt;
+&lt;p&gt;ถ้าเป็น waterfall ก็ต้องมาเล็งว่า กี่เดือนจะเก็บ requirement เสร็จ แล้วจะได้เอาทีม Dev มาเสียบต่อ แล้วถ้าเค้าไม่เสร็จตามกำหนดล่ะ? จะต้องไปทำเรื่องคุยกับใครว่าต้องดึง BA มานานอีกหน่อย? ชะลองานของ Dev ออกไปไหม? (ช่วงนี้ก็เกิดอาการสูญญ�����กาศ &amp;ldquo;ว่างงาน&amp;rdquo; ของทีม Dev ไป)&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_819&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;625&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/illustration.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/illustration.png&#34; alt=&#34;Waterfall รักคนไม่เท่ากัน แล้วแต่อยู่ช่วงไหนของโปรเจค&#34; /&gt;
-&lt;/a&gt; Waterfall รักคนไม่เท่ากัน แล้วแต่อยู่ช่วงไหนของโปรเจค[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/illustration.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/illustration.png&#34; alt=&#34;Waterfall รักคนไม่เ���่ากัน แล้วแต่อยู่ช่วงไหนของโปรเจค&#34; /&gt;
+&lt;/a&gt; Waterfall รักคนไม่เท่ากัน แล้วแต่อยู่ช่วงไหนของโปรเจค&lt;/p&gt;
 
 &lt;p&gt;โปรเจคอไจล์ถ้าบริหารอย่างถูกต้อง จะต้องมีการ &amp;ldquo;ใช้ทุก role ตลอดเวลา&amp;rdquo; เพราะกระบวนการทั้งหมดตั้งแต่ Requirement/Design/Code/Test/Deploy จะถูกหดลงมาสั้นๆ แค่สองอาทิตย์ หรือ น้อยกว่านั้น ถ้ามองรวมๆ ในแต่ละอาทิตย์ก็ดูเหมือนว่าต้องใช่ทุกส่วนอยู่ตลอดเวลา จะต้องใช้ใครจำนวนมากน้อยเท่าไหร่อันนี้แล้วแต่&lt;/p&gt;
 
 &lt;p&gt;ประเด็นหลักคือ ใช้ทุกคนอย่างสม่ำเสมอ ไม่มีใคร &amp;ldquo;งานเข้า&amp;rdquo; ช่วงไหนเป็นพิเศษ&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_821&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;795&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/illustration2.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/illustration2.png&#34; alt=&#34;อไจล์ทำเหมือนเดิมทุกรอบ ใช้คนเท่าๆ เดิมทุกรอบ&#34; /&gt;
-&lt;/a&gt; อไจล์ทำเหมือนเดิมทุกรอบ ใช้คนเท่าๆ เดิมทุกรอบ[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/illustration2.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/illustration2.png&#34; alt=&#34;อไจล์ทำเหมือนเดิมทุกรอบ ใช้คนเท่าๆ เดิมทุกรอบ&#34; /&gt;
+&lt;/a&gt; อไจล์ทำเหมือนเดิมทุกรอบ ใช้คนเท่าๆ เดิมทุกรอบ&lt;/p&gt;
 
 &lt;p&gt;ค่าใช้จ่ายในการดำเนินงาน (Operating Expenses - ไม่รวมค่าเครื่องมือ อุปกรณ์) ก็เป็นสัดส่วนคงที่ dev 4 คน QA 1 คน Product Owner 1 คน ไปเรื่อยๆ จนกว่าจะขี้เกียจทำโปรเจคนี้ต่อ&lt;/p&gt;
 
@@ -91,7 +90,7 @@
 
 &lt;p&gt;ซึ่งคำตอบที่ถูกต้อง คือ &amp;hellip;​ ถ้าของมีประโยชน์ก็หาทางให้เริ่มใช้ได้เลยสิ จะหมักเอาไว้ทำไม?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-04-at-10.24.10-PM.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-04-at-10.24.10-PM.png&#34; alt=&#34;Screen Shot 2014-08-04 at 10.24.10 PM&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/Screen-Shot-2014-08-04-at-10.24.10-PM.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/Screen-Shot-2014-08-04-at-10.24.10-PM.png&#34; alt=&#34;Screen Shot 2014-08-04 at 10.24.10 PM&#34; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;จากนั้นก็เอาข้อมูลจากการเข็นออกไปเริ่มใช้งานนั่นแหละมาดูว่า ตกลงมันทำกำไร ยอดขาย หรือได้ประโยชน์อื่นๆ จริงอย่างที่โม้ไว้หรือเปล่า? ถ้าใครเอาทฤษฎีจาก Lean Startup มาตั้งสมมติฐานแล้ววัดผลประกอบไปด้วยจะเยี่ยมมาก&lt;/p&gt;
@@ -100,9 +99,9 @@
 
 &lt;p&gt;ไม่ต้องรออีกสองปีโปรเจคจบ ปล่อยของใหญ่ออกไปทีเดียว แล้วค่อยมาลุ้นกัน&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_839&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;700&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Agile-Dark-Horse-Release-Value.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/Agile-Dark-Horse-Release-Value.jpg&#34; alt=&#34;ในอไจล์จะมี revenue กลับมาบ้าง แทนที่จะเสียๆๆ ตอนแรกอย่างเดียว (รูปจาก http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/)&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/Agile-Dark-Horse-Release-Value.jpg&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/Agile-Dark-Horse-Release-Value.jpg&#34; alt=&#34;ในอไจล์จะมี revenue กลับมาบ้าง แทนที่จะเสียๆๆ ตอนแรกอย่างเดียว (รูปจาก http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/)&#34; /&gt;
 &lt;/a&gt; ในอไจล์จะมี revenue กลับมาบ้าง แทนที่จะเสียๆๆ ตอนแรกอย่างเดียว&lt;br /&gt;
-(รูปจาก &lt;a href=&#34;http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/)[/caption&#34;&gt;http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/)[/caption&lt;/a&gt;]&lt;/p&gt;
+(รูปจาก &lt;a href=&#34;http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/&#34;&gt;http://tiny-giant-books.com/blog/agile-value-dark-horse-whats-your-backlog-pattern/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;ซึ่งการมีของออกมาให้จิ้มได้สัมผัสได้เร็วขึ้นก็จะมีผลดีคือ&amp;hellip;&lt;/p&gt;
 
@@ -114,15 +113,15 @@
 
 &lt;p&gt;อไจล์เน้นมากๆ ให้ทำและพิสูจน์ความเสี่ยงใหญ่ๆ ให้เห็นตั้งแต่แรกเลยว่าไปรอด(หรือไม่รอด) ผ่านทางการเอาความเสี่ยงพวกนั้นแหละมาเขียนให้อยู่ในรูปของ feature/user story ให้ได้แล้วเข็นออกมาให้ใช้ในรีลีสแรกๆ เดือนแรกๆ&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_823&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;729&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/ip.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/ip.png&#34; alt=&#34;โปรเจคอไจล์ลดความเสี่ยงตั้งแต่เนิ่นๆ&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/ip.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/ip.png&#34; alt=&#34;โปรเจคอไจล์ลดความเสี่ยงตั้งแต่เนิ่นๆ&#34; /&gt;
 &lt;/a&gt;โปรเจคอไจล์ลดความเสี่ยงตั้งแต่เริ่ม&lt;br /&gt;
-(รูปจาก: &lt;a href=&#34;http://dandriani.wordpress.com/category/lifecycle-processes/)[/caption&#34;&gt;http://dandriani.wordpress.com/category/lifecycle-processes/)[/caption&lt;/a&gt;]&lt;/p&gt;
+(รูปจาก: &lt;a href=&#34;http://dandriani.wordpress.com/category/lifecycle-processes/&#34;&gt;http://dandriani.wordpress.com/category/lifecycle-processes/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;ต่างจากแบบ Waterfall ที่เราอาจจะมีระบบการบริหารจัดการความเสี่ยงของโปรเจคยังไงก็ได้ ไม่รู้เหมือนกัน (ก็แล้วแต่บริษัทจะระบบดีหรือไม่ดียังไง) ถ้าไม่คอยลงไปดูส่วนมากทีมก็มักจะทำ &amp;ldquo;ของง่ายๆ&amp;rdquo; ก่อนเพราะมันง่ายดี และทำให้เห็นผลงานออกมาเหมือนว่าจะราบรื่น แล้วก็เอาของยากๆ น่ากลัวๆ ไปหมกๆ ไว้ตอนหลัง&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_824&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;703&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/wfp1.png&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/wfp1.png&#34; alt=&#34;Waterfall ความเสี่ยงอาจจะโดนโยนกองไว้ระเบิดตอนท้ายๆ&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/wfp1.png&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/wfp1.png&#34; alt=&#34;Waterfall ความเสี่ยงอาจจะโดนโยนกองไว้ระเบิดตอนท้ายๆ&#34; /&gt;
 &lt;/a&gt; Waterfall ความเสี่ยงอาจจะโดนโยนกองไว้ระเบิดตอนท้ายๆ&lt;br /&gt;
-(รูปจาก: &lt;a href=&#34;http://dandriani.wordpress.com/category/lifecycle-processes/)[/caption&#34;&gt;http://dandriani.wordpress.com/category/lifecycle-processes/)[/caption&lt;/a&gt;]&lt;/p&gt;
+(รูปจาก: &lt;a href=&#34;http://dandriani.wordpress.com/category/lifecycle-processes/&#34;&gt;http://dandriani.wordpress.com/category/lifecycle-processes/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;การทำออกมาให้มันรู้ๆไปเลยตั้งแต่แรก ว่าอะไรเป็นอะไร เปลี่ยนจากของที่เคยเป็น &amp;ldquo;ความเสี่ยง&amp;rdquo; ให้กลายมาเป็น &amp;ldquo;ปัญหา&amp;rdquo; หรือ &amp;ldquo;ไม่ใช่ปัญหา&amp;rdquo; ให้เร็วที่สุดจะได้เห็นกันตั้งแต่เนิ่นๆ ไม่ต้องพยายามมาหมักไว้นานๆ แล้วระเบิดตูมทีเดียวอีกสองปีข้างหน้า&lt;/p&gt;
 
@@ -132,13 +131,13 @@
 
 &lt;p&gt;ในโลกธุรกิจ คำถามและคำตอบสุดท้ายก็คือ ทำแล้วมันกำไรดีไหม? คุ้มไหม? ทำต่อดีไหม?&lt;/p&gt;
 
-&lt;p&gt;แน่นอนว่าของทุกอย่างในโลกมันไม่ได้ทำแล้วขายได้ตามที่หวัง ไม่ว่าจะเป็นความเสี่ยงตัวใหญ่ๆที่ระเบิดใส่ หรือเอาไปขายแล้วไม่ติดตลาดเท่าที่คิดไว้? ถ้ารู้ตั้งแต่แรกๆ จะตัดสินใจเลิกทำเพื่อจำกัดความวอดวายไหม? จะยอมเสียเงินน้อยๆแทนที่จะพยายามลากไปแล้วเสียมากๆตอนจบไหม?&lt;/p&gt;
+&lt;p&gt;แน่นอนว่าของทุกอย่างในโลกมันไม่ได้ทำแล้วขายได้ตามที่หวัง ไม่ว่าจะเป็นความเสี่ยงตัวใหญ่ๆที่ระเบิดใส่ หรือเอาไปขายแล้วไม่ติดตลาดเท่าที่คิดไว้? ���้ารู้ตั้งแต่แรกๆ จะตัดสินใจเลิกทำเพื่อจำกัดความวอดวายไหม? จะยอมเสียเงินน้อยๆแทนที่จะพยายามลากไปแล้วเสียมากๆตอนจบไหม?&lt;/p&gt;
 
 &lt;p&gt;กลับกันมันอาจจะติดตลาดกว่าที่เราคิดก็ได้ ของอยู่ๆ จะเป็น viral มักจะไม่มีสัญญาณเตือนเราด้วย วันนึงยอดคนใช้ก็พุ่งปรี๊ดขึ้นมา ฮิตติดตลาดไลค์เป็นแสน ทวีตเป็นล้าน ถึงวันนั้น เราอยากจะโยกคนมาโปรเจคนี้มากขึ้นไหม? เราอยากทุ่มพลังเพื่อสร้างกำไรมากขึ้นหรือเปล่า?&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_842&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;a href=&#34;http://www.varokas.com/wp-content/uploads/2014/08/SEO_keyword_analysis_list.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/wp-content/uploads/2014/08/SEO_keyword_analysis_list.jpg&#34; alt=&#34;Data Driven or Luck Driven? (รูปจาก: http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/)&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/images/2014/08/SEO_keyword_analysis_list.jpg&#34;&gt;&lt;img src=&#34;http://varokas.github.io/images/2014/08/SEO_keyword_analysis_list.jpg&#34; alt=&#34;Data Driven or Luck Driven? (รูปจาก: http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/)&#34; /&gt;
 &lt;/a&gt; Data Driven or Luck Driven?&lt;br /&gt;
-(รูปจาก: &lt;a href=&#34;http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/)[/caption&#34;&gt;http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/)[/caption&lt;/a&gt;]&lt;/p&gt;
+(รูปจาก: &lt;a href=&#34;http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/&#34;&gt;http://www.askingsmarterquestions.com/data-driven-marketing-steps-for-seo-keyword-analysis/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;คำถามเหล่านี้คงไม่สามารถตอบกันได้ง่ายๆ ซึ่งอไจล์ไม่ได้ช่วยให้ปัญหาสองอย่างนี้หมดไป&lt;/p&gt;
 
