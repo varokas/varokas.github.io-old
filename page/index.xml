@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on VP</title>
+    <link>http://snow.varokas.com:1313/page/</link>
+    <description>Recent content in Pages on VP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://snow.varokas.com:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://snow.varokas.com:1313/page/about/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://snow.varokas.com:1313/page/about/</guid>
+      <description>
+
+&lt;p&gt;A code craftman, Agile mentor and software engineering enthusiast based in Seattle, USA. After a master degree in Software Engineering from Carnegie Mellon University in 2008, Varokas made himself an agent of change by working with teams on Agile adoption. Pushing from monthly releases to weekly releases, small co-located team to global scale, undocumented code to self-documented and self-tested one.&lt;/p&gt;
+
+&lt;p&gt;Varokas is a national and international speaker on the subject of enterprise Agile adoption, emergent software design and continuous delivery. Working with &lt;a href=&#34;http://www.facebook.com/groups/agile66&#34;&gt;Agile66&lt;/a&gt;, he initiated, organized, and spoken in the first national Thailand Agile conference and every follow up conferences since&lt;/p&gt;
+
+&lt;p&gt;Besides maintaing a (mostly Thai) &lt;a href=&#34;http://www.varokas.com/&#34;&gt;blog&lt;/a&gt; in software engineering, Varokas enjoys &lt;a href=&#34;https://soundcloud.com/varokas&#34;&gt;improvised piano playing&lt;/a&gt;, &lt;a href=&#34;https://www.facebook.com/varokas/media_set?set=a.10151285672213690.525415.709838689&amp;amp;type=3&#34;&gt;creative cooking&lt;/a&gt; and hiking.&lt;/p&gt;
+
+&lt;h3 id=&#34;formal-resume:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Formal Resume&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B7n4BTQaWqWnNlZmTVBZbS1PcG8/edit?usp=sharing&#34; title=&#34;Resume&#34;&gt;pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;internet-presence:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Internet Presence&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blog: &lt;a href=&#34;http://www.varokas.com&#34; title=&#34;varokas&#34;&gt;www.varokas.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Opensource projects on [&lt;a href=&#34;https://github.com/varokas&#34;&gt;github&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Huskycode Project [&lt;a href=&#34;http://www.huskycode.com&#34;&gt;http://www.huskycode.com&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Twitter: @varokas&lt;/li&gt;
+&lt;li&gt;Facebook: &lt;a href=&#34;http://www.facebook.com/varokas&#34; title=&#34;Facebook&#34;&gt;http://www.facebook.com/varokas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Contributes to Agile66 [Thai] &lt;a href=&#34;http://www.agile66.com&#34; title=&#34;Agile66&#34;&gt;blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Active participants in
+
+&lt;ul&gt;
+&lt;li&gt;Agile66 Facebook &lt;a href=&#34;https://www.facebook.com/groups/agile66/&#34; title=&#34;Agile 66 Group&#34;&gt;group&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SPIN Thailand&lt;/li&gt;
+&lt;li&gt;My internet band group: &lt;a href=&#34;https://www.facebook.com/404production&#34; title=&#34;404 Production&#34;&gt;404 Production&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

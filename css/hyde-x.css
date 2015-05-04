@@ -396,6 +396,10 @@ a.label:focus {
   margin-bottom: 1em; 
 }
 
+h1.post-title {
+  margin-bottom: 0.5em;
+}
+
 .post h2 {
   margin-top: 1.3em;
 }
