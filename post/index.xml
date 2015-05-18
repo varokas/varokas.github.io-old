@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on VP</title>
+    <title>Posts on Minimal Engineering</title>
     <link>http://www.varokas.com/post/</link>
-    <description>Recent content in Posts on VP</description>
+    <description>Recent content in Posts on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Mar 2015 04:49:50 +0000</lastBuildDate>
@@ -381,15 +381,17 @@ assertThat(numbers, hasKey(greaterThan(0)));
 
 &lt;table &gt;
 
+&lt;thead&gt;
 &lt;tr &gt;
-  ปีที่
-  ปันผล
-  คำนวณ
-  present value
+&lt;th&gt;  ปีที่&lt;/th&gt;
+&lt;th&gt;  ปันผล&lt;/th&gt;
+&lt;th&gt;  คำนวณ&lt;/th&gt;
+&lt;th&gt;  present value&lt;/th&gt;
 &lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;tbody &gt;
-&lt;tr &gt;
+&lt;tbody style=&#34;text-align: center&#34;&gt;
+&lt;tr&gt;
 
 &lt;td &gt;1
 &lt;/td&gt;
@@ -397,7 +399,7 @@ assertThat(numbers, hasKey(greaterThan(0)));
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{1}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{1}} $$
 &lt;/td&gt;
 
 &lt;td &gt;96
@@ -411,7 +413,7 @@ assertThat(numbers, hasKey(greaterThan(0)));
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{2}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{2}}$$
 &lt;/td&gt;
 
 &lt;td &gt;92
@@ -425,7 +427,7 @@ assertThat(numbers, hasKey(greaterThan(0)));
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{3}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{3}}$$
 &lt;/td&gt;
 
 &lt;td &gt;89
@@ -439,7 +441,7 @@ assertThat(numbers, hasKey(greaterThan(0)));
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{4}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{4}}$$
 &lt;/td&gt;
 
 &lt;td &gt;85
@@ -453,7 +455,7 @@ assertThat(numbers, hasKey(greaterThan(0)));
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{5}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{5}}$$
 &lt;/td&gt;
 
 &lt;td &gt;82

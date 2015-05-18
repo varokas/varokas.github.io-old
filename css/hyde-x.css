@@ -10,23 +10,34 @@
   margin: 0 0 .5em 0;
 }
 
+.outside-container {
+}
+
 .sidebar-about img {
-  margin: 0 auto 0.5rem auto;
+  /* margin: 0 auto 0.5rem auto;
   width: 150px;
-  height: 150px;
+  height: 150px; */
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  margin: 0 0.2em -0.08em 0;
 }
 @media (min-width: 48em) {
   .sidebar-about img {
+    /* 
     margin: 0 0 0.75rem 0;
     width: 175px;
     height: 175px;
+    */
   }
 }
 @media (min-width: 58em) {
   .sidebar-about img {
+    /*
     margin: 0 0 1rem 0;
     width: 200px;
     height: 200px;
+    */
   }
 }
 
@@ -389,6 +400,10 @@ a.label:focus {
 
 .linkedin-icon:hover {
   color: rgb(31,135,188);
+}
+
+.rss-icon:hover {
+  color: rgb(233,121,24);
 }
 
 .post h1 { 

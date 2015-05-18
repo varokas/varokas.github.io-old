@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Investment on VP</title>
+    <title>Investment on Minimal Engineering</title>
     <link>http://www.varokas.com/categories/investment/</link>
-    <description>Recent content in Investment on VP</description>
+    <description>Recent content in Investment on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Aug 2014 02:18:56 +0000</lastBuildDate>
@@ -60,15 +60,17 @@
 
 &lt;table &gt;
 
+&lt;thead&gt;
 &lt;tr &gt;
-  ปีที่
-  ปันผล
-  คำนวณ
-  present value
+&lt;th&gt;  ปีที่&lt;/th&gt;
+&lt;th&gt;  ปันผล&lt;/th&gt;
+&lt;th&gt;  คำนวณ&lt;/th&gt;
+&lt;th&gt;  present value&lt;/th&gt;
 &lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;tbody &gt;
-&lt;tr &gt;
+&lt;tbody style=&#34;text-align: center&#34;&gt;
+&lt;tr&gt;
 
 &lt;td &gt;1
 &lt;/td&gt;
@@ -76,7 +78,7 @@
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{1}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{1}} $$
 &lt;/td&gt;
 
 &lt;td &gt;96
@@ -90,7 +92,7 @@
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{2}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{2}}$$
 &lt;/td&gt;
 
 &lt;td &gt;92
@@ -104,7 +106,7 @@
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{3}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{3}}$$
 &lt;/td&gt;
 
 &lt;td &gt;89
@@ -118,7 +120,7 @@
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{4}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{4}}$$
 &lt;/td&gt;
 
 &lt;td &gt;85
@@ -132,7 +134,7 @@
 &lt;td &gt;100
 &lt;/td&gt;
 
-&lt;td &gt;$latex \frac{100}{\left({{1}+{0.04}}\right)^{5}}&amp;s;=2$
+&lt;td &gt;$$ \frac{100}{\left({{1}+{0.04}}\right)^{5}}$$
 &lt;/td&gt;
 
 &lt;td &gt;82

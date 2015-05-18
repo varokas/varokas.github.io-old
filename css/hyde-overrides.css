@@ -14,11 +14,7 @@
   list-style: none;
   margin-bottom: 1rem;
 }
-.sidebar-nav li {
-  display: block;
-}
 
-@media (max-width: 48em) {
   .sidebar-nav li {
     display: inline;
   }
@@ -27,5 +23,16 @@
   }
   .sidebar-nav li:not(:first-child):before {
       content: '\b7\a0\a0'; /* \b7 is a middot, \a0 is a space */
+  }
+
+@media (min-width: 48em) {
+  .sidebar-nav li {
+    display: block;
+  }
+  .sidebar-nav li:not(:first-child) {
+    padding-left: 0;
+  }
+  .sidebar-nav li:not(:first-child):before {
+    content: '';
   }
 }
