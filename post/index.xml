@@ -751,7 +751,8 @@ protocol ScoreStateContext {
 
 &lt;p&gt;ลองกดเล่นเปลี่ยนค่าดูในกล่องข้างล่างได้ (คลิ๊กที่ตัวเลขแล้วเล่นดู)&lt;/p&gt;
 
-&lt;p&gt;[iframe width=&amp;ldquo;100%&amp;rdquo; height=&amp;ldquo;350&amp;rdquo; src=&amp;ldquo;&lt;a href=&#34;http://pastemath.varokas.com/?t=Compound+Interest&amp;amp;e;=FV+%3D+P*(1+%2B+r)%5En&amp;amp;p;=P%2C900%2Cinitial+amount%0Ar%2C0.03%2Cannual+interest+rate%0An%2C10%2Cnumber+of+years&amp;amp;r;=FV%2Cfuture+value&amp;quot;&#34;&gt;http://pastemath.varokas.com/?t=Compound+Interest&amp;amp;e;=FV+%3D+P*(1+%2B+r)%5En&amp;amp;p;=P%2C900%2Cinitial+amount%0Ar%2C0.03%2Cannual+interest+rate%0An%2C10%2Cnumber+of+years&amp;amp;r;=FV%2Cfuture+value&amp;quot;&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&#34;border:0&#34; width=&#34;100%&#34; height=&#34;400&#34; src=&#34;http://pastemath.varokas.com/?t=Compound&amp;#43;Interest&amp;amp;e=FV&amp;#43;%3D&amp;#43;P*%281&amp;#43;%2B&amp;#43;r%29%5En&amp;amp;p=P%2C900%2Cinitial&amp;#43;amount%0Ar%2C0.03%2Cannual&amp;#43;interest&amp;#43;rate%0An%2C10%2Cnumber&amp;#43;of&amp;#43;years&amp;amp;r=FV%2Cfuture&amp;#43;value&#34;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&#34;ม-ลค-าป-จจ-บ-น:0746b7652025532770c1fb13c4e8a885&#34;&gt;มูลค่าปัจจุบัน&lt;/h2&gt;
 
@@ -761,7 +762,8 @@ protocol ScoreStateContext {
 
 &lt;p&gt;คิดแบบนี้ก็จะพบว่ามีแบบที่หนึ่งมี &amp;ldquo;มูลค่าในปัจจุบัน&amp;rdquo; น้อยกว่าแบบที่สอง&lt;/p&gt;
 
-&lt;p&gt;[iframe width=&amp;ldquo;100%&amp;rdquo; height=&amp;ldquo;400&amp;rdquo; src=&amp;ldquo;&lt;a href=&#34;http://pastemath.varokas.com/?t=Discounted+Value&amp;amp;e;=DV+%3D+FV%2F(1+%2B+r)%5En&amp;amp;p;=FV%2C1000%2Cfuture+value%0Ar%2C0.03%2Cannual+interest+rate%0An%2C10%2Cnumber+of+years&amp;amp;r;=DV%2Cdiscounted+value&amp;quot;&#34;&gt;http://pastemath.varokas.com/?t=Discounted+Value&amp;amp;e;=DV+%3D+FV%2F(1+%2B+r)%5En&amp;amp;p;=FV%2C1000%2Cfuture+value%0Ar%2C0.03%2Cannual+interest+rate%0An%2C10%2Cnumber+of+years&amp;amp;r;=DV%2Cdiscounted+value&amp;quot;&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&#34;border:0&#34; width=&#34;100%&#34; height=&#34;450&#34; src=&#34;http://pastemath.varokas.com/?t=Discounted&amp;#43;Value&amp;amp;e=DV&amp;#43;%3D&amp;#43;FV%2F%281&amp;#43;%2B&amp;#43;r%29%5En&amp;amp;p=FV%2C1000%2Cfuture&amp;#43;value%0Ar%2C0.03%2Cannual&amp;#43;interest&amp;#43;rate%0An%2C10%2Cnumber&amp;#43;of&amp;#43;years&amp;amp;r=DV%2Cdiscounted&amp;#43;value&#34;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&#34;สำค-ญย-งไง:0746b7652025532770c1fb13c4e8a885&#34;&gt;สำคัญยังไง?&lt;/h2&gt;
 
@@ -800,7 +802,8 @@ protocol ScoreStateContext {
 
 &lt;p&gt;This would really be useful when blogging about investing and stuff.&lt;/p&gt;
 
-&lt;p&gt;[iframe width=&amp;ldquo;100%&amp;rdquo; height=&amp;ldquo;300&amp;rdquo; src=&amp;ldquo;&lt;a href=&#34;http://jsfiddle.net/varokas/x5XuS/1/embedded/result,html,js&amp;quot;&#34;&gt;http://jsfiddle.net/varokas/x5XuS/1/embedded/result,html,js&amp;quot;&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&#34;border:0&#34; width=&#34;100%&#34; height=&#34;350&#34; src=&#34;http://jsfiddle.net/varokas/x5XuS/1/embedded/result,html,js&#34;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -810,7 +813,7 @@ protocol ScoreStateContext {
       <pubDate>Mon, 21 Jul 2014 02:07:12 +0000</pubDate>
       
       <guid>http://www.varokas.com/post/power-of-compound-interest/</guid>
-      <description>&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img src=&#34;http://www.bellanaija.com/wp-content/uploads/2012/06/Fundraising.jpg&#34; alt=&#34;&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.bellanaija.com/wp-content/uploads/2012/06/Fundraising.jpg&#34; alt=&#34;&#34; /&gt;
  ที่มารูป: &lt;a href=&#34;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/&#34;&gt;http://www.bellanaija.com/2012/06/22/on-becoming-a-man-the-fundraisers-diary-part-ii/picking-from-the-money-tree/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;ทุกคนที่เริ่มลงทุน บทเรียนแรกคือการเข้าใจก่อนว่า ถ้าอยากจะเก็บเงินใช้ ต้องมีการบริหารจัดการให้มันได้ผลตอบแทนงอกขึ้นมาด้วย&lt;/p&gt;
@@ -823,21 +826,25 @@ protocol ScoreStateContext {
 
 &lt;p&gt;ลองไปกดๆ แก้ๆ ตามสูตรข้างล่างเล่นดูได้ คำนวณดูว่าเงินของเราจะเป็นยังไงในอีกสิบยี่สิบปีข้างหน้า&lt;/p&gt;
 
-&lt;p&gt;[iframe src=&amp;ldquo;&lt;a href=&#34;http://pastemath.varokas.com/?t=Compound+Interest&amp;amp;e=FV+%3D+P%2A%281+%2B+r%29%5En&amp;amp;p=P%2C1000%2Cinitial+amount%0Ar%2C0.04%2Cannual+interest+rate%0An%2C20%2Cnumber+of+years&amp;amp;r=FV%2Cfuture+value&amp;quot;&#34;&gt;http://pastemath.varokas.com/?t=Compound+Interest&amp;amp;e=FV+%3D+P%2A%281+%2B+r%29%5En&amp;amp;p=P%2C1000%2Cinitial+amount%0Ar%2C0.04%2Cannual+interest+rate%0An%2C20%2Cnumber+of+years&amp;amp;r=FV%2Cfuture+value&amp;quot;&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&#34;border:0&#34; width=&#34;100%&#34; height=&#34;400&#34; src=&#34;http://pastemath.varokas.com/?t=Compound&amp;#43;Interest&amp;amp;e=FV&amp;#43;%3D&amp;#43;P%2A%281&amp;#43;%2B&amp;#43;r%29%5En&amp;amp;p=P%2C1000%2Cinitial&amp;#43;amount%0Ar%2C0.04%2Cannual&amp;#43;interest&amp;#43;rate%0An%2C20%2Cnumber&amp;#43;of&amp;#43;years&amp;amp;r=FV%2Cfuture&amp;#43;value&#34;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>เลือกหุ้นดียังไง</title>
-      <link>http://www.varokas.com/post/e0b980e0b8a5e0b8b7e0b8ade0b881e0b8abe0b8b8e0b989e0b899e0b894e0b8b5e0b8a2e0b8b1e0b887e0b984e0b887/</link>
+      <link>http://www.varokas.com/post/stock-choosing/</link>
       <pubDate>Thu, 03 Jul 2014 03:07:44 +0000</pubDate>
       
-      <guid>http://www.varokas.com/post/e0b980e0b8a5e0b8b7e0b8ade0b881e0b8abe0b8b8e0b989e0b899e0b894e0b8b5e0b8a2e0b8b1e0b887e0b984e0b887/</guid>
+      <guid>http://www.varokas.com/post/stock-choosing/</guid>
       <description>
 
 &lt;p&gt;คนไหนกำลังลงทุนแบบ Value อยู่ แนะนำให้ดู 19 คลิปนี้ใน playlist นี้นะครับ อธิบายไว้ค่อนข้างดีมากเลย แต่อาจจะมีมุกไม่เกี่ยวเยอะหน่อย ใครไม่อยากซื้อหุ้น ดูแล้วอาจจะอยากซื้อขึ้นมาก็ได้ ผมยังดูไม่จบ แต่อยากจะ Blog ข้อมูลสำคัญไว้ก่อน เผื่อกลับมาอ่านได้&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OOu47G3bqms&amp;amp;list=PLXylIzHOm7Yostmj6302AAuQ9kdogYrIM&#34;&gt;https://www.youtube.com/watch?v=OOu47G3bqms&amp;amp;list=PLXylIzHOm7Yostmj6302AAuQ9kdogYrIM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;videoWrapper&#34;&gt;
+&lt;iframe type=&#34;text/html&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLXylIzHOm7Yostmj6302AAuQ9kdogYrIM&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;h3 id=&#34;การลงท-นแบบ-value:db7a2ae981e9e1a9e843975dd45201d5&#34;&gt;การลงทุนแบบ Value&lt;/h3&gt;
 
