@@ -6,8 +6,79 @@
     <description>Recent content on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2015 23:08:36 -0700</lastBuildDate>
     <atom:link href="http://www.varokas.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cloud Data Architecture and CAP Theorem</title>
+      <link>http://www.varokas.com/post/2015-05-19-CAP-Theorem-and-cloud-architecture/</link>
+      <pubDate>Tue, 19 May 2015 23:08:36 -0700</pubDate>
+      
+      <guid>http://www.varokas.com/post/2015-05-19-CAP-Theorem-and-cloud-architecture/</guid>
+      <description>
+
+&lt;p&gt;I always think of Software architecture as making an energy transfer. When we are designing to gain something, we lose something else in the process. Nothing shows this better than the &lt;a href=&#34;http://en.wikipedia.org/wiki/CAP_theorem&#34;&gt;CAP Theorem&lt;/a&gt;, which has recently been quite popular criteria for selecting NoSQL databases for storage in the cloud.&lt;/p&gt;
+
+&lt;h2 id=&#34;cap-theorem:eb906a23ad1d499d07c5694028901073&#34;&gt;CAP Theorem&lt;/h2&gt;
+
+&lt;p&gt;It states that all distributed system can provide &lt;em&gt;only&lt;/em&gt; two of these three properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consistency&lt;/strong&gt; All nodes see the same thing&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Availability&lt;/strong&gt; When we ask the system, It readily answers&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Partition Tolerance&lt;/strong&gt; When parts of the system fails, it can still operates&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s try that with data storage system.&lt;/p&gt;
+
+&lt;h2 id=&#34;c-and-a:eb906a23ad1d499d07c5694028901073&#34;&gt;C and A&lt;/h2&gt;
+
+&lt;p&gt;Example: Traditional SQL Database&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/database.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[C] Easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.&lt;/p&gt;
+
+&lt;p&gt;[A] No wonder why we call it &amp;ldquo;database&amp;rdquo;. It&amp;rsquo;s a base for all our data! This implies availability in a sense that our only node are always in contact with the client.&lt;/p&gt;
+
+&lt;p&gt;[P] One server to do it all is well and good until we have a problem at that only node and we&amp;rsquo;ll lose a few hours while we bring up the node again.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-and-p:eb906a23ad1d499d07c5694028901073&#34;&gt;A and P&lt;/h2&gt;
+
+&lt;p&gt;Example: Cassandra&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/ap.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to spot an AP system. Look for &amp;ldquo;Eventually Consistent&amp;rdquo; in the documentation. Cassandra default operation is to write to one node. The data will later be replicated to other nodes in the background.&lt;/p&gt;
+
+&lt;p&gt;[C] If a client reads from any available node. The client can, undesirably, read before replication finishes. What is read might not be up to date.&lt;/p&gt;
+
+&lt;p&gt;[A] Nothing is stopping us from reading data from any nodes at any time. So the data is highly available to the client.&lt;/p&gt;
+
+&lt;p&gt;[P] is great here because one of replicated nodes can be taken away and others can readily step in place.&lt;/p&gt;
+
+&lt;h2 id=&#34;c-and-p:eb906a23ad1d499d07c5694028901073&#34;&gt;C and P&lt;/h2&gt;
+
+&lt;p&gt;Example: HBase&lt;/p&gt;
+
+&lt;p&gt;By default HBase make sure all writes are acknowledged first before sending ok back to the client.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/cp.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[C] After the system give the client an &amp;ldquo;okay&amp;rdquo;. It means the read will be consistent as all node are acknowledged of that same data.&lt;/p&gt;
+
+&lt;p&gt;[A] Not that great. The client cannot proceed with that node until the data is acknowledged.&lt;/p&gt;
+
+&lt;p&gt;[P] The nodes that are down can also taken over by other nodes.&lt;/p&gt;
+
+&lt;h2 id=&#34;look-for-what-is-missing:eb906a23ad1d499d07c5694028901073&#34;&gt;Look for what is missing&lt;/h2&gt;
+
+&lt;p&gt;When designing a distributed system or storage, keep CAP theorem in mind. It will help us be aware of what is being sacrificed while pursuing other qualities. It is natural for our architecture to have a drawback. We just need to make sure it is intentional, not accidental.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About Me</title>
@@ -1138,53 +1209,6 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
 &lt;p&gt;ลองสังเกตว่าถ้าเราเขียนเทสปกติ function ที่อยู่ใน it(..) จะไม่รับ parameter อะไร แต่ถ้าเป็นแบบ async ก็จะมีการประกาศตัวแปรขึ้นมา 1 ตัว (ไม่ให้งงแนะนำว่าให้ใช้ชื่อว่า done) ซึ่งถ้าประกาศแบบนี้แล้ว jasmine ก็จะรู้เองว่าเราอยากใช้แบบ async ซึ่งจะผ่านเมื่อในโค้ดเรามีการเรียก done ก่อนเวลา timeout (ค่า default คือ 5 วินาที เปลี่ยนได้)&lt;/p&gt;
 
 &lt;p&gt;ลองไปรันโค้ดได้จากที่นี่ : [&lt;a href=&#34;https://github.com/varokas/kata-js&#34;&gt;https://github.com/varokas/kata-js&lt;/a&gt;]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agile Thailand 2014 เป็นของทุกคน</title>
-      <link>http://www.varokas.com/post/agile-thailand-2014-is-for-everyone/</link>
-      <pubDate>Thu, 05 Jun 2014 06:45:28 +0000</pubDate>
-      
-      <guid>http://www.varokas.com/post/agile-thailand-2014-is-for-everyone/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/06/10154419_723192064368077_5624676864795596774_n.jpg?w=650&#34; alt=&#34;Image&#34; /&gt;
- โค้งสุดท้าย ก่อนจะมีงานอไจล์แห่งประเทศไทย ปี 2014 ในวันเสาร์อาทิตย์ 7-8 มิ.ย. 2014 นี้ เผื่อใครยังไม่อินกับรูปแบบของ open space อ่านที่เกลี้ยกล่อมกันมาหลายกระทู้แล้วยังงง สรุปสั้นๆ ให้เลยคือว่า&lt;/p&gt;
-
-&lt;h2 id=&#34;งาน-agile-thailand-2014-เป-นของท-กคน:5363ba8c2d60c5ceced782549b10a9ae&#34;&gt;&lt;strong&gt;&amp;ldquo;งาน Agile Thailand 2014 เป็นของทุกคน&amp;rdquo;&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;staff ทั้งหมดที่จะใส่เห็นเสื้อสีดำในวันงาน หน้าที่เป็นเบ้เฉยๆ เอาไว้ จัดโต๊ะ เตรียมสถาณที่ แจกเสื้อ และซื้อข้าวกลางวัน ขนม น้ำ มาให้ทุกคนกินเท่านั้น ความรู้ด้านอไจล์ที่จะได้จากงานนี้ เกิดจากทุกคนที่มาร่วมงานกัน มาพูดคุยแลกเปลี่ยนความคิดเห็นกัน&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;เอาสิ่งที่เคยลองแล้วได้ผลดีมาแบ่งปันกัน&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;เอาสิ่งที่ยังสงสัยคาใจอยู่มาพูดกัน&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;และที่สำคัญคือ เอาสิ่งที่ตัวเองอยากรู้มาประกาศให้ทุกคนรู้ เซเลบและเพื่อนๆ ใจดีจะได้ช่วยๆ กันเข้ามาเล่าให้ฟัง&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;งานนี้เป็นของทุกคน ทุกคนมีหน้าที่คือ ทำให้ตัวเองได้ความรู้และความเข้าใจสูงสุดในเรื่องอไจล์ ผ่านการพูดคุยแลกเปลี่ยน เล่นเกมส์ ทำเวิร์คชอร์ป เอาแลปทอปมากางสอนกัน ผ่านกิจกรรมที่ตกลงกันขึ้นมาเอง ไม่มีใครกำหนดว่า คุณต้องนั่งฟังเรื่องอะไร จากใคร ในรูปแบบไหน แต่เป็นตัวของคุณเอง ทุกคนที่จะเข้ามาในงานนี้ มากำหนดด้วยกันว่า อยากฟังเรื่องอะไร ทำอะไร มากแค่ไหน ลึกแค่ไหน เรียนรู้จากประสบการณ์กันและกัน มางานแล้ว หากมีวินาทีใดที่คิดว่าตัวเอง ยังไม่ได้สิ่งที่ต้องการ อย่าลืมบอกกับตัวเองไว้นะครับ ว่า &amp;ldquo;งานนี้เป็นของเรา&amp;rdquo; เจอกันในงาน Agile Thailand 2014 ครับ&lt;/p&gt;
-
-&lt;h2 id=&#34;โพสเก-าๆ-เพ-อความฮ-กเห-ม:5363ba8c2d60c5ceced782549b10a9ae&#34;&gt;โพสเก่าๆ เพื่อความฮึกเหึม&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://oncedayint.wordpress.com/2014/05/21/%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%81%e0%b8%8e%e0%b8%87%e0%b9%88%e0%b8%b2%e0%b8%a2%e0%b9%86%e0%b8%82%e0%b8%ad%e0%b8%87-open-space-ath2014/&#34;&gt;หลักการและกฎง่ายๆ ของ Open Space&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://tanjai.in.th/2014/06/03/4day-before-ath2014/&#34;&gt;[ATH2014]นับถอยหลัง สี่ วัน ก่อนถึงวันงานจริง&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blogpom.com/post/85574868242&#34;&gt;สุดยอดการสัมมนาคือการสัมมนาที่ไม่จัดสัมมนา&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.wordpress.com/2014/04/30/what-to-do-in-open-space/&#34;&gt;มางาน Open Space แบบ ATH2014 ต้องทำตัวยังไงบ้าง?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.github.io/ath2014viz/&#34;&gt;สถิติของผู้ร่วมงาน ATH2014&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.wordpress.com/2014/04/25/always-look-for-one-less-thing-to-do/&#34;&gt;Always look for one less thing to do&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.wordpress.com/2014/01/30/agile-thailand-2014-in-my-dream-part-2/&#34;&gt;Agile Thailand 2014 ในความฝัน (ตอนที่ 2: การจัดงาน)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.wordpress.com/2014/01/20/agile-thailand-2014-proposal-format/&#34;&gt;Agile Thailand 2014 ในความฝัน (ตอนที่ 1: รูปแบบงาน)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

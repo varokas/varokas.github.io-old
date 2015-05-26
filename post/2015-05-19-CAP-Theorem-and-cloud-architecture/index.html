@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Cloud Data Architecture and CAP Theorem</title>
+
+  
+  <link rel="stylesheet" href="http://www.varokas.com//css/poole.css">
+  <link rel="stylesheet" href="http://www.varokas.com//css/hyde.css">
+  <link rel="stylesheet" href="http://www.varokas.com//css/poole-overrides.css">
+  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-x.css">
+  <link rel="stylesheet" href="http://www.varokas.com//css/highlight/railscasts.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+</head>
+<body>
+<div class="outside-container">
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+      <h1><a href="/"><img src="/images/icon_photo.png"/>VP</a></h1>
+      <p class="lead"><p>Minimal Engineering</p>
+</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://www.varokas.com//">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="/about/">About Me</a></li>
+      
+      <li class="sidebar-nav-item"><a href="/talks/">Talks</a></li>
+      
+    </ul>
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://www.github.com/varokas" class="github-icon"><i class="fa fa-github-square fa-2x"></i></a>
+      
+      <a href="https://www.linkedin.com/in/varokas" class="linkedin-icon"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      
+      <a href="https://www.facebook.com/varokas" class="facebook-icon"><i class="fa fa-facebook-square fa-2x"></i></a>
+      
+      <a href="/post/index.xml" class="rss-icon"><i class="fa fa-rss-square fa-2x"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">Cloud Data Architecture and CAP Theorem</h1>
+      <span class="post-date">
+        19 May 2015
+        
+         &middot; <a href="http://www.varokas.com/post/2015-05-19-CAP-Theorem-and-cloud-architecture/#disqus_thread">Comments</a>
+        
+      </span>
+    
+
+<p>I always think of Software architecture as making an energy transfer. When we are designing to gain something, we lose something else in the process. Nothing shows this better than the <a href="http://en.wikipedia.org/wiki/CAP_theorem">CAP Theorem</a>, which has recently been quite popular criteria for selecting NoSQL databases for storage in the cloud.</p>
+
+<h2 id="cap-theorem:eb906a23ad1d499d07c5694028901073">CAP Theorem</h2>
+
+<p>It states that all distributed system can provide <em>only</em> two of these three properties.</p>
+
+<p><strong>Consistency</strong> All nodes see the same thing</p>
+
+<p><strong>Availability</strong> When we ask the system, It readily answers</p>
+
+<p><strong>Partition Tolerance</strong> When parts of the system fails, it can still operates</p>
+
+<p>Let&rsquo;s try that with data storage system.</p>
+
+<h2 id="c-and-a:eb906a23ad1d499d07c5694028901073">C and A</h2>
+
+<p>Example: Traditional SQL Database</p>
+
+<p><img src="/images/2015/database.png" alt="" />
+</p>
+
+<p>[C] Easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.</p>
+
+<p>[A] No wonder why we call it &ldquo;database&rdquo;. It&rsquo;s a base for all our data! This implies availability in a sense that our only node are always in contact with the client.</p>
+
+<p>[P] One server to do it all is well and good until we have a problem at that only node and we&rsquo;ll lose a few hours while we bring up the node again.</p>
+
+<h2 id="a-and-p:eb906a23ad1d499d07c5694028901073">A and P</h2>
+
+<p>Example: Cassandra</p>
+
+<p><img src="/images/2015/ap.png" alt="" />
+</p>
+
+<p>It&rsquo;s easy to spot an AP system. Look for &ldquo;Eventually Consistent&rdquo; in the documentation. Cassandra default operation is to write to one node. The data will later be replicated to other nodes in the background.</p>
+
+<p>[C] If a client reads from any available node. The client can, undesirably, read before replication finishes. What is read might not be up to date.</p>
+
+<p>[A] Nothing is stopping us from reading data from any nodes at any time. So the data is highly available to the client.</p>
+
+<p>[P] is great here because one of replicated nodes can be taken away and others can readily step in place.</p>
+
+<h2 id="c-and-p:eb906a23ad1d499d07c5694028901073">C and P</h2>
+
+<p>Example: HBase</p>
+
+<p>By default HBase make sure all writes are acknowledged first before sending ok back to the client.</p>
+
+<p><img src="/images/2015/cp.png" alt="" />
+</p>
+
+<p>[C] After the system give the client an &ldquo;okay&rdquo;. It means the read will be consistent as all node are acknowledged of that same data.</p>
+
+<p>[A] Not that great. The client cannot proceed with that node until the data is acknowledged.</p>
+
+<p>[P] The nodes that are down can also taken over by other nodes.</p>
+
+<h2 id="look-for-what-is-missing:eb906a23ad1d499d07c5694028901073">Look for what is missing</h2>
+
+<p>When designing a distributed system or storage, keep CAP theorem in mind. It will help us be aware of what is being sacrificed while pursuing other qualities. It is natural for our architecture to have a drawback. We just need to make sure it is intentional, not accidental.</p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "varokas";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "varokas";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+<script src="http://www.varokas.com//js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-37124574-3'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</body>
+</html>
+

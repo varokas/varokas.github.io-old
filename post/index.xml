@@ -6,8 +6,79 @@
     <description>Recent content in Posts on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2015 04:49:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2015 23:08:36 -0700</lastBuildDate>
     <atom:link href="http://www.varokas.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cloud Data Architecture and CAP Theorem</title>
+      <link>http://www.varokas.com/post/2015-05-19-CAP-Theorem-and-cloud-architecture/</link>
+      <pubDate>Tue, 19 May 2015 23:08:36 -0700</pubDate>
+      
+      <guid>http://www.varokas.com/post/2015-05-19-CAP-Theorem-and-cloud-architecture/</guid>
+      <description>
+
+&lt;p&gt;I always think of Software architecture as making an energy transfer. When we are designing to gain something, we lose something else in the process. Nothing shows this better than the &lt;a href=&#34;http://en.wikipedia.org/wiki/CAP_theorem&#34;&gt;CAP Theorem&lt;/a&gt;, which has recently been quite popular criteria for selecting NoSQL databases for storage in the cloud.&lt;/p&gt;
+
+&lt;h2 id=&#34;cap-theorem:eb906a23ad1d499d07c5694028901073&#34;&gt;CAP Theorem&lt;/h2&gt;
+
+&lt;p&gt;It states that all distributed system can provide &lt;em&gt;only&lt;/em&gt; two of these three properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consistency&lt;/strong&gt; All nodes see the same thing&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Availability&lt;/strong&gt; When we ask the system, It readily answers&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Partition Tolerance&lt;/strong&gt; When parts of the system fails, it can still operates&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s try that with data storage system.&lt;/p&gt;
+
+&lt;h2 id=&#34;c-and-a:eb906a23ad1d499d07c5694028901073&#34;&gt;C and A&lt;/h2&gt;
+
+&lt;p&gt;Example: Traditional SQL Database&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/database.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[C] Easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.&lt;/p&gt;
+
+&lt;p&gt;[A] No wonder why we call it &amp;ldquo;database&amp;rdquo;. It&amp;rsquo;s a base for all our data! This implies availability in a sense that our only node are always in contact with the client.&lt;/p&gt;
+
+&lt;p&gt;[P] One server to do it all is well and good until we have a problem at that only node and we&amp;rsquo;ll lose a few hours while we bring up the node again.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-and-p:eb906a23ad1d499d07c5694028901073&#34;&gt;A and P&lt;/h2&gt;
+
+&lt;p&gt;Example: Cassandra&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/ap.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to spot an AP system. Look for &amp;ldquo;Eventually Consistent&amp;rdquo; in the documentation. Cassandra default operation is to write to one node. The data will later be replicated to other nodes in the background.&lt;/p&gt;
+
+&lt;p&gt;[C] If a client reads from any available node. The client can, undesirably, read before replication finishes. What is read might not be up to date.&lt;/p&gt;
+
+&lt;p&gt;[A] Nothing is stopping us from reading data from any nodes at any time. So the data is highly available to the client.&lt;/p&gt;
+
+&lt;p&gt;[P] is great here because one of replicated nodes can be taken away and others can readily step in place.&lt;/p&gt;
+
+&lt;h2 id=&#34;c-and-p:eb906a23ad1d499d07c5694028901073&#34;&gt;C and P&lt;/h2&gt;
+
+&lt;p&gt;Example: HBase&lt;/p&gt;
+
+&lt;p&gt;By default HBase make sure all writes are acknowledged first before sending ok back to the client.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/cp.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;[C] After the system give the client an &amp;ldquo;okay&amp;rdquo;. It means the read will be consistent as all node are acknowledged of that same data.&lt;/p&gt;
+
+&lt;p&gt;[A] Not that great. The client cannot proceed with that node until the data is acknowledged.&lt;/p&gt;
+
+&lt;p&gt;[P] The nodes that are down can also taken over by other nodes.&lt;/p&gt;
+
+&lt;h2 id=&#34;look-for-what-is-missing:eb906a23ad1d499d07c5694028901073&#34;&gt;Look for what is missing&lt;/h2&gt;
+
+&lt;p&gt;When designing a distributed system or storage, keep CAP theorem in mind. It will help us be aware of what is being sacrificed while pursuing other qualities. It is natural for our architecture to have a drawback. We just need to make sure it is intentional, not accidental.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Best Things to do in Seattle</title>
@@ -1077,55 +1148,6 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
 &lt;p&gt;สังคมอไจล์เป็นสังคมที่เหมาะกับการทำแบบนี้สุดๆ เพราะคนในวงการอไจล์มักจะชอบแชร์และหาเรื่องคุยกัน และช่วยเหลือตลอดเวลา (คือ เราอยากให้ทุกคนเป็นอไจล์ จะได้ทำงานด้วยกันง่ายๆ ฮ่าๆๆ) อยากรุ้เรื่องอะไร ถ้ายังไม่มีคนพูด ไม่ต้องกลัว ไป facilitate หัวข้อที่อยากรู้ได้เลย เดี๋ยวจะมีคนที่รู้เรื่องเข้ามาแจมเองตามธรรมชาติ ลองให้โอกาสกับมันดู​ แล้วคุณจะแปลกใจในพลังแห่งการ self manage&lt;/p&gt;
 
 &lt;p&gt;อ่ะ ถ้ายังมีอะไรสงสัย ใส่มาในคอมเมนท์ได้เลยครับ&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Always look for one less thing to do</title>
-      <link>http://www.varokas.com/post/always-look-for-one-less-thing-to-do/</link>
-      <pubDate>Fri, 25 Apr 2014 05:52:01 +0000</pubDate>
-      
-      <guid>http://www.varokas.com/post/always-look-for-one-less-thing-to-do/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/1780352_10152264722918690_1862834444_o.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/1780352_10152264722918690_1862834444_o.jpg&#34; alt=&#34;1780352_10152264722918690_1862834444_o&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ช่วงนี้ก็ใกล้งาน Agile (Open) Thailand 2014 เข้ามาเต็มที่แล้ว ก็เลยเอาโน้ตเก่าๆ ลายมือไก่เขี่ย อ่านรู้เรื่องบ้างไม่รู้เรื่องบ้าง ที่เคยไปในงาน Agile Open Northwest มาอ่านดู ก็มาสะดุดกับที่ประโยคนี้พอดีครับ Diana Larsen พูดกับทุกคนในงานว่า คำขวัญของการจัดงานสัมนาแบบ open space เนื่ยคือ &amp;rdquo;Always look for one less thing to do&amp;rdquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;a-closed-loop:25314687b5cce89cbc5de46402cf0635&#34;&gt;A Closed Loop&lt;/h2&gt;
-
-&lt;p&gt;การจัดงานโดยทั่วไป เราต้องห่วงคนเข้างาน ห่วงคนพูด ห่วงคนฟัง ห่วงข้าว น้ำ ปลา อาหาร ห่วงเสื้อต้องขาย ห่วงว่าทุกคนจะต้องมีห้องให้พอให้พร้อม ห่วงว่าห้องมันต้องพอคนมาฟัง ห่วงว่าหัวข้อสนใจแล้วไม่มีใครมาฟังจะทำยังไง&lt;/p&gt;
-
-&lt;p&gt;เราจะในโลกของการควบคุม ที่ทุกอย่างมันต้องสมบูรณ์แบบ เรามีเทคโนโลยีและความรู้มากมายที่จะพยากรณ์สิ่งที่เกิดขึ้น แต่อย่างไรสิ่งที่คนเดียวทำได้มันจำกัด ทุกครั้งที่เราวางแผนกำหนดการ จัดการความเสี่ยง มันคือการเล่นพนันกับอนาคตว่า สิ่งใดบ้างจะเกิดขึ้น มันคือการสร้างทางเลือกเผื่อมากมายที่จะรอบรับสิ่งที่จะเกิดหรือไม่เกิดขึ้น&lt;/p&gt;
-
-&lt;p&gt;หนักๆ เข้าก็กลายเป็นการดันคนให้เข้าไปอยู่ในกรอบที่ตัวเองวางแผนกำหนดไว้ ถึงกำหนดก็ต้องจบ หมดเวลาก็ต้องไป จัดอะไรไว้ก็ต้องทำ&lt;/p&gt;
-
-&lt;h2 id=&#34;an-open-space:25314687b5cce89cbc5de46402cf0635&#34;&gt;An Open Space&lt;/h2&gt;
-
-&lt;p&gt;เราลืมมักจะไปว่า พลังมันมีอยู่มากมายจากกลุ่มคนที่มารวมตัวกัน มนุษย์เป็นสัตว์ที่ปรับตัวได้เก่งสุดยอด ถ้าคนเราเมื่อมีจุดหมายร่วมกันแล้ว ก็จะพยายามปรับใช้สภาพแวดล้อมใกล้ๆ ตัว ให้เกิดประโยชน์สูงสุดได้เอง สิ่งเหล่านี้ผมเห็นว่ามันเกิดขึ้นเองโดยธรรมชาติ ในงานที่เคยไปมาโดยไม่ต้องมีใครมาจัดตั้งกัน&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ถ้าห้องมันไม่พอ หรือ ห้องมันไม่เหมาะ ก็เช็ดโต๊ะกลมกินข้าว มาจับคู่นั่งสอน pair กัน&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;หัวข้อไหนไม่มี ก็เปิดหัวข้อมา เรียกคนที่เก่งๆ มาช่วยสอนหน่อย (คนสนใจเยอะ)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;หัวข้อไหนยังไม่เคลีย เรียกให้มาฉายซ้ำ เจาะลึก&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;นั่งคุยกัน เอา laptop มาโชว์ผลงาน ถกเถียงกันเรื่องภาษาใหม่ๆ&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ชวนกันไปกินข้าวเย็นคุยต่อ ยังไม่หายมันส์&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ทุกคนเอาประสบการณ์แต่ละด้านต่างมุมมองเข้ามาผสมกัน เติมเต็มกัน ทุกคนอยากมีสิ่งที่ตัวเองรู้มาแบ่งปันกัน ถ่ายทอดให้กัน มาสอนกัน&lt;/p&gt;
-
-&lt;p&gt;ทั้งหมดนี้กลุ่มคนในงานได้เองโดยไม่ต้องจัดกำหนดการอะไรล่วงหน้า !!&lt;/p&gt;
-
-&lt;h2 id=&#34;look-for-less-to-do-look-for-more-to-learn:25314687b5cce89cbc5de46402cf0635&#34;&gt;Look for less to do, look for more to learn&lt;/h2&gt;
-
-&lt;p&gt;ในฐานะคนจัดงาน ต้องย้ำเสมอว่า ลองถอยออกมาให้มากๆ ลองกล้าเปิดห้องโล่งๆ 10 ห้อง ให้คน 200 คน จัดการกันว่า อะไรเป็นสิ่งที่ดีที่สุดสำหรับพวกเขา อะไรเป็นวิธีที่ดีที่สุดในการจัดห้อง หัวข้ออะไรที่ควรจะมี ควรเข้า ไม่เข้า อะไรที่เหมาะกับตัวเอง ทุกคนกำหนดได้ว่าจะแบ่งปันความรู้กันได้อย่างดีที่สุดอย่างไร ผ่านกติการ่วมกันง่ายๆ นิดเดียว (เหมือนทีมอไจล์ใหญ่ๆ เลยป่ะ)&lt;/p&gt;
-
-&lt;p&gt;ครั้งนี้มันอาร์ตมาก ครั้งหน้าค่อยมาต่อเรื่อง วิธีการจัดงานและกฎง่ายๆ ของ open space กันครับ :-)&lt;/p&gt;
 </description>
     </item>
     
