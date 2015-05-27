@@ -21,13 +21,13 @@
 
 &lt;h2 id=&#34;cap-theorem:eb906a23ad1d499d07c5694028901073&#34;&gt;CAP Theorem&lt;/h2&gt;
 
-&lt;p&gt;It states that all distributed system can provide &lt;em&gt;only&lt;/em&gt; two of these three properties.&lt;/p&gt;
+&lt;p&gt;It states that all distributed systems can provide &lt;em&gt;only&lt;/em&gt; two of these three properties.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Consistency&lt;/strong&gt; All nodes see the same thing&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Availability&lt;/strong&gt; When we ask the system, It readily answers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Availability&lt;/strong&gt; When we ask the system, it readily answers&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Partition Tolerance&lt;/strong&gt; When parts of the system fails, it can still operates&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Partition Tolerance&lt;/strong&gt; When parts of the system fail, it can still operates&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s try that with data storage system.&lt;/p&gt;
 
@@ -38,9 +38,9 @@
 &lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/database.png&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;[C] Easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.&lt;/p&gt;
+&lt;p&gt;[C] The easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.&lt;/p&gt;
 
-&lt;p&gt;[A] No wonder why we call it &amp;ldquo;database&amp;rdquo;. It&amp;rsquo;s a base for all our data! This implies availability in a sense that our only node are always in contact with the client.&lt;/p&gt;
+&lt;p&gt;[A] No wonder why we call it &amp;ldquo;database&amp;rdquo;. It&amp;rsquo;s a base for all our data! This implies availability in a sense that our only node is always in contact with a client.&lt;/p&gt;
 
 &lt;p&gt;[P] One server to do it all is well and good until we have a problem at that only node and we&amp;rsquo;ll lose a few hours while we bring up the node again.&lt;/p&gt;
 
@@ -53,9 +53,9 @@
 
 &lt;p&gt;It&amp;rsquo;s easy to spot an AP system. Look for &amp;ldquo;Eventually Consistent&amp;rdquo; in the documentation. Cassandra default operation is to write to one node. The data will later be replicated to other nodes in the background.&lt;/p&gt;
 
-&lt;p&gt;[C] If a client reads from any available node. The client can, undesirably, read before replication finishes. What is read might not be up to date.&lt;/p&gt;
+&lt;p&gt;[C] If a client reads from any available node, the client can, undesirably, read before replication finishes. What is read might not be up to date.&lt;/p&gt;
 
-&lt;p&gt;[A] Nothing is stopping us from reading data from any nodes at any time. So the data is highly available to the client.&lt;/p&gt;
+&lt;p&gt;[A] Nothing can stop us from reading data from any node at any time. So the data is highly available to the client.&lt;/p&gt;
 
 &lt;p&gt;[P] is great here because one of replicated nodes can be taken away and others can readily step in place.&lt;/p&gt;
 
@@ -63,16 +63,16 @@
 
 &lt;p&gt;Example: HBase&lt;/p&gt;
 
-&lt;p&gt;By default HBase make sure all writes are acknowledged first before sending ok back to the client.&lt;/p&gt;
+&lt;p&gt;By default HBase makes sure all writes are acknowledged first before sending ok back to the client.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/cp.png&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;[C] After the system give the client an &amp;ldquo;okay&amp;rdquo;. It means the read will be consistent as all node are acknowledged of that same data.&lt;/p&gt;
+&lt;p&gt;[C] After the system gives the client an &amp;ldquo;okay&amp;rdquo;. It means the read will be consistent as all node are acknowledged of that same data.&lt;/p&gt;
 
 &lt;p&gt;[A] Not that great. The client cannot proceed with that node until the data is acknowledged.&lt;/p&gt;
 
-&lt;p&gt;[P] The nodes that are down can also taken over by other nodes.&lt;/p&gt;
+&lt;p&gt;[P] The nodes that are down can also be taken over by other nodes.&lt;/p&gt;
 
 &lt;h2 id=&#34;look-for-what-is-missing:eb906a23ad1d499d07c5694028901073&#34;&gt;Look for what is missing&lt;/h2&gt;
 

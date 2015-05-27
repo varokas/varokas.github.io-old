@@ -84,13 +84,13 @@
 
 <h2 id="cap-theorem:eb906a23ad1d499d07c5694028901073">CAP Theorem</h2>
 
-<p>It states that all distributed system can provide <em>only</em> two of these three properties.</p>
+<p>It states that all distributed systems can provide <em>only</em> two of these three properties.</p>
 
 <p><strong>Consistency</strong> All nodes see the same thing</p>
 
-<p><strong>Availability</strong> When we ask the system, It readily answers</p>
+<p><strong>Availability</strong> When we ask the system, it readily answers</p>
 
-<p><strong>Partition Tolerance</strong> When parts of the system fails, it can still operates</p>
+<p><strong>Partition Tolerance</strong> When parts of the system fail, it can still operates</p>
 
 <p>Let&rsquo;s try that with data storage system.</p>
 
@@ -101,9 +101,9 @@
 <p><img src="/images/2015/database.png" alt="" />
 </p>
 
-<p>[C] Easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.</p>
+<p>[C] The easiest way to make sure our data is consistent? Put it all in one giant centralized bucket.</p>
 
-<p>[A] No wonder why we call it &ldquo;database&rdquo;. It&rsquo;s a base for all our data! This implies availability in a sense that our only node are always in contact with the client.</p>
+<p>[A] No wonder why we call it &ldquo;database&rdquo;. It&rsquo;s a base for all our data! This implies availability in a sense that our only node is always in contact with a client.</p>
 
 <p>[P] One server to do it all is well and good until we have a problem at that only node and we&rsquo;ll lose a few hours while we bring up the node again.</p>
 
@@ -116,9 +116,9 @@
 
 <p>It&rsquo;s easy to spot an AP system. Look for &ldquo;Eventually Consistent&rdquo; in the documentation. Cassandra default operation is to write to one node. The data will later be replicated to other nodes in the background.</p>
 
-<p>[C] If a client reads from any available node. The client can, undesirably, read before replication finishes. What is read might not be up to date.</p>
+<p>[C] If a client reads from any available node, the client can, undesirably, read before replication finishes. What is read might not be up to date.</p>
 
-<p>[A] Nothing is stopping us from reading data from any nodes at any time. So the data is highly available to the client.</p>
+<p>[A] Nothing can stop us from reading data from any node at any time. So the data is highly available to the client.</p>
 
 <p>[P] is great here because one of replicated nodes can be taken away and others can readily step in place.</p>
 
@@ -126,16 +126,16 @@
 
 <p>Example: HBase</p>
 
-<p>By default HBase make sure all writes are acknowledged first before sending ok back to the client.</p>
+<p>By default HBase makes sure all writes are acknowledged first before sending ok back to the client.</p>
 
 <p><img src="/images/2015/cp.png" alt="" />
 </p>
 
-<p>[C] After the system give the client an &ldquo;okay&rdquo;. It means the read will be consistent as all node are acknowledged of that same data.</p>
+<p>[C] After the system gives the client an &ldquo;okay&rdquo;. It means the read will be consistent as all node are acknowledged of that same data.</p>
 
 <p>[A] Not that great. The client cannot proceed with that node until the data is acknowledged.</p>
 
-<p>[P] The nodes that are down can also taken over by other nodes.</p>
+<p>[P] The nodes that are down can also be taken over by other nodes.</p>
 
 <h2 id="look-for-what-is-missing:eb906a23ad1d499d07c5694028901073">Look for what is missing</h2>
 
