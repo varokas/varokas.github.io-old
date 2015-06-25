@@ -7,15 +7,15 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>ถ้าหาก</title>
+  <title>Building Your Cloud Service with Kubernetes</title>
 
   
-  <link rel="stylesheet" href="http://www.varokas.com//css/poole.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/poole-overrides.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-overrides.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-x.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/highlight/railscasts.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/poole-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde-x.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/highlight/railscasts.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -46,7 +46,7 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="http://www.varokas.com//">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="http://localhost:1313//">Blog</a></li>
       
       <li class="sidebar-nav-item"><a href="/about/">About Me</a></li>
       
@@ -72,23 +72,17 @@
 
 <div class="content container">
   <div class="post">
-    <h1 class="post-title">ถ้าหาก</h1>
+    <h1 class="post-title">Building Your Cloud Service with Kubernetes</h1>
       <span class="post-date">
-        4 April 2010
+        14 June 2015
         
-         &middot; <a href="http://www.varokas.com/post/if/#disqus_thread">Comments</a>
+         &middot; <a href="http://localhost:1313/post/2015-06-14-Building-Your-Cloud-Service-with-Kubernetes/#disqus_thread">Comments</a>
         
       </span>
-    <p>ก่อนน้องเดฟจะไปเรียนต่อเอก SE เราก็ต้องใช้น้องเดฟให้คุ้มซะหน่อย ฮ่าๆ</p>
-
-<p>มีคนบอกว่่าเล่นเปียโนแล้วหน้าเอ๋อ คราวนี้ลองยิ้มให้กล้องแล้วนะ</p>
-
-<p>อันนี้ลองเร่งเสียงขึ้นมานิดนึงกว่าอันที่แปะไว้ในเฟสบุ๊ค แต่ยังไงเปียโนก็ยังเบาอยู่ดี -*- คราวหน้าคงต้องเอากล้องไปไว้ใกล้ๆ หน่อยละ</p>
-
-<p><div class="videoWrapper">
-<iframe type="text/html" frameborder="0" width="100%" src="https://www.youtube.com/embed/ytzZeqdVKw8"></iframe>
-</div>
-</p>
+    <p>References
+* <a href="https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/locally.md">https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/locally.md</a>
+* <a href="https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/docker.md">https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/docker.md</a>
+*</p>
 
   </div>
   <div id="disqus_thread"></div>
@@ -120,7 +114,7 @@ var disqus_shortname = "varokas";
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </div>
-<script src="http://www.varokas.com//js/highlight.pack.js"></script>
+<script src="http://localhost:1313//js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 <script>
@@ -133,6 +127,9 @@ var disqus_shortname = "varokas";
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 

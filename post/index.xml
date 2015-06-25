@@ -6,8 +6,46 @@
     <description>Recent content in Posts on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2015 23:08:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2015 22:44:02 -0700</lastBuildDate>
     <atom:link href="http://www.varokas.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talk Less; Means More</title>
+      <link>http://www.varokas.com/post/2015-06-24-Talk-Less-Means-More/</link>
+      <pubDate>Wed, 24 Jun 2015 22:44:02 -0700</pubDate>
+      
+      <guid>http://www.varokas.com/post/2015-06-24-Talk-Less-Means-More/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/06/finalwordle1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We are now in an age of information, too much of it.&lt;/p&gt;
+
+&lt;p&gt;We suffer not from lack of knowledge, but from an overwhelming amount of data everyday.&lt;/p&gt;
+
+&lt;p&gt;Still, we all write big articles, use fancy words,  bring useless metaphors, reiterate same points in never-ending comments.&lt;/p&gt;
+
+&lt;p&gt;It does not matter what is written or said. If it is too long, it&amp;rsquo;ll get tl;dr (too long, don’t read) by readers. A waste of time to both ends.&lt;/p&gt;
+
+&lt;p&gt;This is a challenge to all of us. To always:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use smaller words that carry more weight&lt;/li&gt;
+&lt;li&gt;Be honest with facts, while be kind in the message&lt;/li&gt;
+&lt;li&gt;Proof read what had just written, trim out useless paddings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end, length is not a proof of wisdom, but an inability to reduce information to its simplest form.&lt;/p&gt;
+
+&lt;p&gt;- tl;mm&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;color:#999999; font-size: 0.8em&#34;&gt;
+  
+Image: http://courses.rachaelsullivan.com/248/
+
+&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Data Architecture and CAP Theorem</title>
@@ -1028,126 +1066,6 @@ it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varokas.wordpress.com/2014/01/20/agile-thailand-2014-proposal-format/&#34;&gt;Agile Thailand 2014 ในความฝัน (ตอนที่ 1: รูปแบบงาน)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>มางาน Open Space แบบ ATH2014 ต้องทำตัวยังไงบ้าง?</title>
-      <link>http://www.varokas.com/post/what-to-do-in-open-space/</link>
-      <pubDate>Wed, 30 Apr 2014 07:23:32 +0000</pubDate>
-      
-      <guid>http://www.varokas.com/post/what-to-do-in-open-space/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/openspace01.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/openspace01.jpg&#34; alt=&#34;OpenSpace01&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ที่มารูป : &lt;a href=&#34;http://newtechusa.net/agile/agile-and-open-space/&#34;&gt;http://newtechusa.net/agile/agile-and-open-space/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;งาน Agile Thailand 2014 นี้ ทีมงานเราลุยเต็มที่ ตั้งใจจะจัดเป็นแบบ Open Space อย่างอบอุ่น หลังจากเริ่มๆ ไปโพสสื่อข่าวเรื่อยๆ พบว่า คนไม่รู้เรื่องเลยครับว่ามันเป็นคืออะไร (แป่วว) เอาล่ะ ตั๋วก็ยังไม่เริ่มขาย แต่อยากขอเคลียร์กันเลยทีเดียว&lt;/p&gt;
-
-&lt;h1 id=&#34;คอนเซปงาน-ขอส-นๆ:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;คอนเซปงาน ขอสั้นๆ&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ไม่กำหนดตัวคนพูดมาก่อน ไม่กำหนดหัวข้อมาก่อนวันงาน&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;มาตกลงกันเช้าวันนั้นว่าใครจะพูดอะไร ใครอยากฟังอะไร&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;มีห้องเตรียมไว้ให้ พร้อมกับอุปกรณ์เครื่องเขียน คนนำแต่ละหัวข้อ จะจัดคุยกันยังไงก็ได้&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;หัวข้อ จะทำเป็น นำเสนอ เวิร์คชอบ นั่งคุยกัน เล่นเกม ยังไงก็ได้ แล้วแต่ตกลงกัน&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ขอแบบยาวๆ-หน-อย-แบบท-ละข-นๆ:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;ขอแบบยาวๆ หน่อย แบบทีละขั้นๆ&lt;/h1&gt;
-
-&lt;p&gt;อ่ะมาดูกัน&lt;/p&gt;
-
-&lt;h2 id=&#34;1-สองเท-าเด-นเข-างาน-ลงทะเบ-ยน:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;1. สองเท้าเดินเข้างาน ลงทะเบียน&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/964421_10151643736223588_1168943082_o.jpg&#34; alt=&#34;964421_10151643736223588_1168943082_o&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;เราซื้อตั๋วมางานแล้ว ตอนเช้าก็มาลงทะเบียน ตามปกติ แจกเสื้อ แจกขนม แจกรอยยิ้ม แต่ที่แน่ๆคือไม่แจก กำหนดการ (บอกแล้วว่าไม่มีล่วงหน้า) มีอย่างเดียวคือ จะเปิดงานเมื่อไหร่ ที่ไหน&lt;/p&gt;
-
-&lt;p&gt;แน่นอนว่า receptionist น่ารักเป็นจุดขายของงานเสมอ&amp;hellip;​&lt;/p&gt;
-
-&lt;h2 id=&#34;2-มารวมต-วก-นในวงกลม-open-space:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;2. มารวมตัวกันในวงกลม open space&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/841225_10151490900163690_77351262_o.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/841225_10151490900163690_77351262_o.jpg&#34; alt=&#34;841225_10151490900163690_77351262_o&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;เสร็จแล้วทุกคนก็มานั่งที่เก้าอี้ที่เตรียมไว้เป็นวงกลมแบบนี้ นั่งคุยกับคนข้างๆ ไปก่อนจะมี ท่านประธานซักคนมาเปิดงานตามเวลา บอกกฎ กติกาง่ายๆ ของ open space&lt;/p&gt;
-
-&lt;h2 id=&#34;3-เข-ยนห-วข-อ-แล-วมาประกาศให-ท-กคนฟ-ง:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;3. เขียนหัวข้อ แล้วมาประกาศให้ทุกคนฟัง&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_092413.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_092413.jpg&#34; alt=&#34;IMG_20140206_092413&#34; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;แล้วท่านประธานถือไมค์อยู่กลางวงเนี่ย ก็จะเรียกให้ทุกคนที่สนใจจะพูด หรือ จะนำการพูดคุย  หรือ จะทำอะไรก็แล้วแต่ภายใน slot ขนาด 1 ชั่วโมง (เราเรียกว่าคนนี้ facilitator) คิดออกแล้วเขียนหัวข้อใส่กระดาษ A4 ตัวใหญ่ๆ แล้วก็เดินมาพูดที่ไมค์กลางห้อง บอกสั้นๆ ว่าจะทำอะไร ต่อแถวกันพูดทีละคน คนละไม่เกินนาทีนึง&lt;/p&gt;
-
-&lt;h2 id=&#34;4-เอาห-วข-อไปแปะในกระดานใหญ-marketplace:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;4. เอาหัวข้อไปแปะในกระดานใหญ่ (Marketplace)&lt;/h2&gt;
-
-&lt;p&gt;ทีม staff เราก็จะเตรียมกระดานโล่งๆ ตีเป็นเวลากับห้องเป็นช่องๆ ไว้ให้ facilitator อยากจัดหัวข้อตัวเอง เวลาไหน เอาไปแปะในช่องเองได้เลย&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140205_092721.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140205_092721.jpg&#34; alt=&#34;ในรูปตรงเส้นตีลงมาจะเป็นเวลา (ดูที่หัวด้านบนได้) ส่วนห้องจะเป็นโพสอิท สีๆ ตามจำนวนห้องในเวลานั้นไว้ &#34; /&gt;
-&lt;/a&gt; ในรูปตรงเส้นตีลงมาจะเป็นเวลา (ดูที่หัวด้านบนได้) ส่วนห้องจะเป็นโพสอิท สีๆ ตามจำนวนห้องในเวลานั้นไว้ อยากให้ห้องสีอะไร ก็เอาโพสอิทมาแปะบน A4 ของตัวเอง&lt;/p&gt;
-
-&lt;h2 id=&#34;5-ด-ตารางแล-วก-แยกย-ายก-นไปเข-าตามท-สนใจ:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;5. ดูตารางแล้วก็แยกย้ายกันไปเข้าตามที่สนใจ&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/823552_10151490905033690_605459575_o.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/823552_10151490905033690_605459575_o.jpg&#34; alt=&#34;ช้อปปิ้งหัวข้อที่อยากไปกัน เป็นอะไรที่ลำบากใจมากกก อยากเข้าไปหมด&#34; /&gt;
-&lt;/a&gt; ช้อปปิ้งหัวข้อที่อยากไปกัน เป็นอะไรที่ลำบากใจมากกก อยากเข้าไปหมด&lt;/p&gt;
-
-&lt;p&gt;มันก็แค่นี้แหละ จริงๆ นะ ตอนนี้แหละเป็นตอนที่สนุกละ คนร่วมงานทั้งหมดก็จะมามุงๆ กันหาหัวข้อที่อยากไป ระหว่างนั้น facilitator ก็เดินไปดูที่ห้องของตัวเองก็จะเจอห้องแบบนี้&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_075413.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_075413.jpg&#34; alt=&#34;IMG_20140206_075413&#34; /&gt;
-&lt;/a&gt; มี flipchart ให้ มีเก้าอี้ให้ ล้อมวงกันคุยได้เลย&lt;/p&gt;
-
-&lt;h2 id=&#34;6-ด-มด-ำก-บบรรยากาศ-open-space:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;6. ดื่มด่ำกับบรรยากาศ Open Space !!&lt;/h2&gt;
-
-&lt;p&gt;กิจกรรมที่เกิดขึ้นใน open space จะเป็นกลุ่มเล็กๆ หลายๆ กลุ่ม ได้ใกล้ชิดกันมากขึ้นได้มีส่วนร่วมมากขึ้น มากกว่านั่งหลับเฉยๆ แบบที่งานประชุมอื่นไม่มีแน่ๆ เช่น&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_160120.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_160120.jpg?w=584&#34; alt=&#34;IMG_20140206_160120&#34; /&gt;
-&lt;/a&gt; facilitator นำพูดคุยกันเรื่องที่สนใจ ขีดๆ เขียนๆ ลงใน flipchart พูดคุบกันอย่างออกรส&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140205_150043.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140205_150043.jpg&#34; alt=&#34;facilitator ไม่จำเป็นต้องเป็นผู้รู้เรื่องนั้นก็ได้ ถ้าอยากรู้อะไรก็เปิดหัวข้อมา แล้วก็จะมีคนที่สนใจและผู้รู้มาร่วมคุยกัน ถ้าหัวข้อไหนฮิตๆ คนก็จะเข้ามาคึกคักมาก&#34; /&gt;
-&lt;/a&gt; facilitator ไม่จำเป็นต้องเป็นผู้รู้เรื่องนั้นก็ได้ ถ้าอยากรู้อะไรก็เปิดหัวข้อมา แล้วก็จะมีคนที่สนใจและผู้รู้มาร่วมคุยกัน ถ้าหัวข้อไหนฮิตๆ คนก็จะเข้ามาคึกคักมาก&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_144230.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_144230.jpg&#34; alt=&#34;IMG_20140206_144230&#34; /&gt;
-&lt;/a&gt; อยากจะปิ้ง slide แบบปกติ ก็จะมีห้องที่มี projector ไว้ให้&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_134533.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_134533.jpg&#34; alt=&#34;IMG_20140206_134533&#34; /&gt;
-&lt;/a&gt; ใช้สิ่งแวดล้อมให้เป็นประโยชน์ เอาฝาห้องมาสอนเรื่อง user story mapping กัน&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/01/803861_10151493447118690_308377539_n.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/01/803861_10151493447118690_308377539_n.jpg&#34; alt=&#34;นำคนทำ workshop ลองเขียน user story กันก็ได้&#34; /&gt;
-&lt;/a&gt; นำคนทำ workshop ลอง������ียน user story กันก็ได้&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_153810.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_153810.jpg&#34; alt=&#34;นำเล่นเกม เสริมสร้างความเข้าใจเรื่องอไจล์ให้แข็งแกร่ง !!!&#34; /&gt;
-&lt;/a&gt; นำเล่นเกม เสริมสร้างความเข้าใจเรื่องอไจล์ให้แข็งแกร่ง !!!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.varokas.com/images/2014/04/img_20140206_203140.jpg&#34;&gt;&lt;img src=&#34;http://www.varokas.com/images/2014/04/img_20140206_203140.jpg&#34; alt=&#34;TDD กับ pair programming อยากทำ ก็เปิดห้องมา ชวนคนที่อยากมาลอง มาแพร์กันสดๆ ในงาน (เสียดายไม่มีรูปบรรยากาศที่เหลือมาให้ดู)&#34; /&gt;
-&lt;/a&gt; TDD กับ pair programming อยากทำ ก็เปิดห้องมา ชวนคนที่อยากมาลอง มาแพร์กันสดๆ ในงาน (เสียดายไม่มีรูปบรรยากาศด้านหลัง ที่มีคนนั่งแพร์กัน ลองทำโจทย์กัน มาให้ดู)&lt;/p&gt;
-
-&lt;p&gt;เห็นไหมว่า มีอะไรสนุกๆ กว่านั่งฟังในห้องประชุมเฉยๆ ตั้งเยอะ !!&lt;/p&gt;
-
-&lt;h1 id=&#34;แล-วทำไมจ-ดปกต-แบบชาวบ-านเค-าไมได-ห-ม:5a68d5277a2c91397dec8eeb47a3ad09&#34;&gt;แล้วทำไมจัดปกติแบบชาวบ้านเค้าไมได้ หืม??&lt;/h1&gt;
-
-&lt;p&gt;สั้นๆ &amp;hellip; คือ อินดี้อ่ะ เท่ จะทำไม 555&lt;/p&gt;
-
-&lt;p&gt;อ่ะจริงจังหน่อยๆ คือ&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;อยากให้ &amp;ldquo;มาร่วมงาน&amp;rdquo; มากกว่า &amp;ldquo;มานั่งฟัง&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;อยากให้ &amp;ldquo;กำหนดสิ่งที่อยากเรียนรู้เอง&amp;rdquo; มากกว่า &amp;ldquo;รอให้ป้อนเข้ามา&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;อยากให้ &amp;ldquo;นั่งเล่าเรื่องเล่นเกมคุยกันอบอุ่น&amp;rdquo; มากกว่า &amp;ldquo;บรรยายให้ฟัง&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;มันแทบจะเป็นไปไม่ได้เลยที่มางาน Open Space แล้วจะไม่มีหัวข้อที่ตัวเองอยากรู้อยากฟัง เพราะถ้าไม่มีใครจัดมาให้ เราก็แค่ก้าวเท้าออกไป หยิบกระดาษมาเขียน แล้วก็ประกาศหาเพื่อนที่อยากรู้เรื่องเดียวกัน ชวนมาคุยกัน ก็เท่านั้นเอง&lt;/p&gt;
-
-&lt;p&gt;สังคมอไจล์เป็นสังคมที่เหมาะกับการทำแบบนี้สุดๆ เพราะคนในวงการอไจล์มักจะชอบแชร์และหาเรื่องคุยกัน และช่วยเหลือตลอดเวลา (คือ เราอยากให้ทุกคนเป็นอไจล์ จะได้ทำงานด้วยกันง่ายๆ ฮ่าๆๆ) อยากรุ้เรื่องอะไร ถ้ายังไม่มีคนพูด ไม่ต้องกลัว ไป facilitate หัวข้อที่อยากรู้ได้เลย เดี๋ยวจะมีคนที่รู้เรื่องเข้ามาแจมเองตามธรรมชาติ ลองให้โอกาสกับมันดู​ แล้วคุณจะแปลกใจในพลังแห่งการ self manage&lt;/p&gt;
-
-&lt;p&gt;อ่ะ ถ้ายังมีอะไรสงสัย ใส่มาในคอมเมนท์ได้เลยครับ&lt;/p&gt;
 </description>
     </item>
     

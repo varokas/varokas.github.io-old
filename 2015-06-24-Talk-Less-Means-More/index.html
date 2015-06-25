@@ -7,15 +7,15 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>ถ้าหาก</title>
+  <title>Talk Less; Means More</title>
 
   
-  <link rel="stylesheet" href="http://www.varokas.com//css/poole.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/poole-overrides.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-overrides.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/hyde-x.css">
-  <link rel="stylesheet" href="http://www.varokas.com//css/highlight/railscasts.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/poole-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde-x.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/highlight/railscasts.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -46,7 +46,7 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="http://www.varokas.com//">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="http://localhost:1313//">Blog</a></li>
       
       <li class="sidebar-nav-item"><a href="/about/">About Me</a></li>
       
@@ -69,58 +69,44 @@
 
 
 
-
 <div class="content container">
   <div class="post">
-    <h1 class="post-title">ถ้าหาก</h1>
-      <span class="post-date">
-        4 April 2010
-        
-         &middot; <a href="http://www.varokas.com/post/if/#disqus_thread">Comments</a>
-        
-      </span>
-    <p>ก่อนน้องเดฟจะไปเรียนต่อเอก SE เราก็ต้องใช้น้องเดฟให้คุ้มซะหน่อย ฮ่าๆ</p>
+    <h1>Talk Less; Means More</h1>
+    <p>We are now in an age of information, too much of it.</p>
 
-<p>มีคนบอกว่่าเล่นเปียโนแล้วหน้าเอ๋อ คราวนี้ลองยิ้มให้กล้องแล้วนะ</p>
+<p>We suffer not from lack of knowledge, but from going through overwhelming amount of data everyday.</p>
 
-<p>อันนี้ลองเร่งเสียงขึ้นมานิดนึงกว่าอันที่แปะไว้ในเฟสบุ๊ค แต่ยังไงเปียโนก็ยังเบาอยู่ดี -*- คราวหน้าคงต้องเอากล้องไปไว้ใกล้ๆ หน่อยละ</p>
+<p>Still, we all write big articles, use fancy words,  bring useless metaphors, reiterate same points in never-ending comments.</p>
 
-<p><div class="videoWrapper">
-<iframe type="text/html" frameborder="0" width="100%" src="https://www.youtube.com/embed/ytzZeqdVKw8"></iframe>
-</div>
-</p>
+<p>It does not matter what is written or said. If it is too long, it&rsquo;ll get tl;dr (too long, don’t read) by readers. A waste of time to both ends.</p>
+
+<p>This is a challenge to all of us, to:
+* Use smaller words that carry more weight
+* Be honest with facts, while be kind in the message
+* Proof read what had just written, trim out useless paddings</p>
+
+<p>In the end, length is not proof of wisdom,  but an evidence in lack of ability to reduce information to its simplest form.
+- tl;mm</p>
 
   </div>
-  <div id="disqus_thread"></div>
-  
-</div>
 
-
+<div id="disqus_thread"></div>
 <script type="text/javascript">
-var disqus_shortname = "varokas";
-(function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script>
-
-
-
-<script type="text/javascript">
-    var disqus_shortname = "varokas";
+     
+var disqus_shortname = 'varokas';
+    
+     
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 </div>
-<script src="http://www.varokas.com//js/highlight.pack.js"></script>
+</div>
+<script src="http://localhost:1313//js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 <script>
@@ -133,6 +119,9 @@ var disqus_shortname = "varokas";
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 

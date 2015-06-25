@@ -6,8 +6,46 @@
     <description>Recent content on Minimal Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2015 23:08:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2015 22:44:02 -0700</lastBuildDate>
     <atom:link href="http://www.varokas.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Talk Less; Means More</title>
+      <link>http://www.varokas.com/post/2015-06-24-Talk-Less-Means-More/</link>
+      <pubDate>Wed, 24 Jun 2015 22:44:02 -0700</pubDate>
+      
+      <guid>http://www.varokas.com/post/2015-06-24-Talk-Less-Means-More/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.varokas.com/images/2015/06/finalwordle1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We are now in an age of information, too much of it.&lt;/p&gt;
+
+&lt;p&gt;We suffer not from lack of knowledge, but from an overwhelming amount of data everyday.&lt;/p&gt;
+
+&lt;p&gt;Still, we all write big articles, use fancy words,  bring useless metaphors, reiterate same points in never-ending comments.&lt;/p&gt;
+
+&lt;p&gt;It does not matter what is written or said. If it is too long, it&amp;rsquo;ll get tl;dr (too long, don’t read) by readers. A waste of time to both ends.&lt;/p&gt;
+
+&lt;p&gt;This is a challenge to all of us. To always:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use smaller words that carry more weight&lt;/li&gt;
+&lt;li&gt;Be honest with facts, while be kind in the message&lt;/li&gt;
+&lt;li&gt;Proof read what had just written, trim out useless paddings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the end, length is not a proof of wisdom, but an inability to reduce information to its simplest form.&lt;/p&gt;
+
+&lt;p&gt;- tl;mm&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;color:#999999; font-size: 0.8em&#34;&gt;
+  
+Image: http://courses.rachaelsullivan.com/248/
+
+&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Data Architecture and CAP Theorem</title>
@@ -1182,33 +1220,6 @@ protocol ScoreStateContext {
 
 &lt;p&gt;&lt;strong&gt;6. ผู้บริหารเก่งและเป็นคนดีไม่โกงผู้ถือหุ้น&lt;/strong&gt;
 อันนี้ถ้าผ่านข้างบนมาได้ ผู้บริหารคงต้องเก่ง เป็นคนดีนี่ไม่รู้ดูตัวเลขอะไรได้&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Async Testing บน JavaScript</title>
-      <link>http://www.varokas.com/post/async-testing-e0b89ae0b899-javascript/</link>
-      <pubDate>Sat, 28 Jun 2014 22:43:23 +0000</pubDate>
-      
-      <guid>http://www.varokas.com/post/async-testing-e0b89ae0b899-javascript/</guid>
-      <description>&lt;p&gt;ใช้ Asynchronous โค้ดมักจะเทสได้ยาก เพราะเราไม่รู้ว่ามันจะไปจบลงเมื่อไหร่ เพราะเวลาเราเรียกฟังก์ชัน async เสร็จมันก็จะไปอยู่ในโลกของมันเอง ไม่กลับมาอีก&lt;/p&gt;
-
-&lt;p&gt;ซึ่งเทคนิคในการแก้ไขแบบนี้น่าจะมีได้หลายแบบ อย่างนึงที่คิดออกและเคยทำคือ ต้องให้ async code มันไปเขียนค่าใน shared variable ซักตัวนึง แล้วก็ให้เทสมันเช็คหลังจากรอไปซักพักนึง&lt;/p&gt;
-
-&lt;p&gt;แต่สำหรับ JavaScript ถ้าใครใช้ jasmine เป็นเฟรมเวิร์คในการเทส จะมีวิธีจัดการง่ายๆ แบบนี้&lt;/p&gt;
-
-&lt;p&gt;[code lang=&amp;ldquo;js&amp;rdquo;]
-it(&amp;ldquo;async spec must use done callback&amp;rdquo;, function(done) {
-  setTimeout(function() {
-    done();
-  }
-  ,50);
-});
-[/code]&lt;/p&gt;
-
-&lt;p&gt;ลองสังเกตว่าถ้าเราเขียนเทสปกติ function ที่อยู่ใน it(..) จะไม่รับ parameter อะไร แต่ถ้าเป็นแบบ async ก็จะมีการประกาศตัวแปรขึ้นมา 1 ตัว (ไม่ให้งงแนะนำว่าให้ใช้ชื่อว่า done) ซึ่งถ้าประกาศแบบนี้แล้ว jasmine ก็จะรู้เองว่าเราอยากใช้แบบ async ซึ่งจะผ่านเมื่อในโค้ดเรามีการเรียก done ก่อนเวลา timeout (ค่า default คือ 5 วินาที เปลี่ยนได้)&lt;/p&gt;
-
-&lt;p&gt;ลองไปรันโค้ดได้จากที่นี่ : [&lt;a href=&#34;https://github.com/varokas/kata-js&#34;&gt;https://github.com/varokas/kata-js&lt;/a&gt;]&lt;/p&gt;
 </description>
     </item>
     
